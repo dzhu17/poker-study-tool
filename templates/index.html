@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poker Preflop GTO Trainer</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <!-- Scenario bar -->
+  <div class="scenario-bar">
+    <button class="scenario-btn active" data-scenario="SB_RFI">SB Opening</button>
+    <button class="scenario-btn" data-scenario="BB_vs_RFI">BB vs Open</button>
+    <button class="scenario-btn" data-scenario="SB_vs_3bet">SB vs 3-Bet</button>
+  </div>
+
+  <!-- Mode toggle -->
+  <div class="mode-bar">
+    <button class="mode-btn active" id="mode-study">Study</button>
+    <button class="mode-btn" id="mode-quiz">Quiz</button>
+  </div>
+
+  <!-- Table -->
+  <div class="table-wrap">
+    <div class="table-felt">
+
+      <!-- Opponent -->
+      <div class="seat opponent-seat">
+        <div class="seat-label" id="opp-label">BB</div>
+        <div class="hidden-cards">
+          <div class="card card-back"></div>
+          <div class="card card-back"></div>
+        </div>
+      </div>
+
+      <!-- Center info -->
+      <div class="table-center">
+        <div class="situation" id="situation-text">SB opens — select your hand</div>
+        <div class="gto-line" id="gto-line" style="display:none">
+          Model: <span id="gto-badge"></span>
+        </div>
+      </div>
+
+      <!-- Player -->
+      <div class="seat player-seat">
+        <div class="player-cards">
+          <div class="card player-card" id="card1" data-slot="1">
+            <span class="card-rank" id="rank1-display">A</span>
+            <span class="card-suit" id="suit1-display">♠</span>
+          </div>
+          <div class="card player-card" id="card2" data-slot="2">
+            <span class="card-rank" id="rank2-display">K</span>
+            <span class="card-suit" id="suit2-display">♥</span>
+          </div>
+        </div>
+        <div class="seat-label" id="player-label">SB</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Action buttons -->
+  <div class="action-bar" id="action-bar">
+    <button class="action-btn fold-btn" data-action="fold">
+      <span class="action-name">FOLD</span>
+      <span class="action-pct" id="fold-pct">—</span>
+    </button>
+    <button class="action-btn call-btn" data-action="call">
+      <span class="action-name" id="call-label">CALL</span>
+      <span class="action-pct" id="call-pct">—</span>
+    </button>
+    <button class="action-btn raise-btn" data-action="raise">
+      <span class="action-name" id="raise-label">RAISE</span>
+      <span class="action-pct" id="raise-pct">—</span>
+    </button>
+  </div>
+
+  <!-- Quiz feedback -->
+  <div class="quiz-feedback-bar" id="quiz-feedback-bar" style="display:none">
+    <span id="quiz-feedback-text"></span>
+    <button id="next-hand-btn">Next Hand →</button>
+  </div>
+
+  <!-- Card picker overlay -->
+  <div class="picker-overlay" id="picker-overlay" style="display:none">
+    <div class="picker-box">
+      <div class="picker-title" id="picker-title">Pick rank</div>
+      <div id="rank-grid"></div>
+    </div>
+  </div>
+
+</body>
+<script src="/static/app.js"></script>
+</html>

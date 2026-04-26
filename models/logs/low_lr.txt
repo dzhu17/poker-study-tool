@@ -1,0 +1,1112 @@
+Starting self-play PPO training
+  Episodes:        500000
+  Rollout size:    512
+  Opponent update: every 500 episodes
+  Output dir:      models/config3_low_lr
+------------------------------------------------------------
+Ep    500/500000 | Avg reward: +0.142 | Updates: 1 | Entropy: 1.792
+Ep   1000/500000 | Avg reward: +1.151 | Updates: 2 | Entropy: 1.792
+Ep   1500/500000 | Avg reward: -0.004 | Updates: 3 | Entropy: 1.792
+Ep   2000/500000 | Avg reward: +0.017 | Updates: 4 | Entropy: 1.791
+Ep   2500/500000 | Avg reward: -0.420 | Updates: 5 | Entropy: 1.790
+Ep   3000/500000 | Avg reward: +0.536 | Updates: 6 | Entropy: 1.788
+Ep   3500/500000 | Avg reward: +0.344 | Updates: 7 | Entropy: 1.783
+Ep   4000/500000 | Avg reward: +0.075 | Updates: 8 | Entropy: 1.777
+Ep   4500/500000 | Avg reward: +0.723 | Updates: 9 | Entropy: 1.772
+Ep   5000/500000 | Avg reward: -0.529 | Updates: 10 | Entropy: 1.771
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep5000.pth
+Ep   5500/500000 | Avg reward: +0.193 | Updates: 12 | Entropy: 1.759
+Ep   6000/500000 | Avg reward: -0.549 | Updates: 13 | Entropy: 1.754
+Ep   6500/500000 | Avg reward: -0.229 | Updates: 14 | Entropy: 1.748
+Ep   7000/500000 | Avg reward: +1.619 | Updates: 15 | Entropy: 1.737
+Ep   7500/500000 | Avg reward: -0.029 | Updates: 16 | Entropy: 1.728
+Ep   8000/500000 | Avg reward: +0.131 | Updates: 17 | Entropy: 1.718
+Ep   8500/500000 | Avg reward: -0.183 | Updates: 18 | Entropy: 1.703
+Ep   9000/500000 | Avg reward: -0.592 | Updates: 19 | Entropy: 1.684
+Ep   9500/500000 | Avg reward: -0.207 | Updates: 20 | Entropy: 1.669
+Ep  10000/500000 | Avg reward: -0.919 | Updates: 21 | Entropy: 1.663
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep10000.pth
+Ep  10500/500000 | Avg reward: -0.463 | Updates: 22 | Entropy: 1.655
+Ep  11000/500000 | Avg reward: -0.142 | Updates: 23 | Entropy: 1.639
+Ep  11500/500000 | Avg reward: +0.131 | Updates: 24 | Entropy: 1.635
+Ep  12000/500000 | Avg reward: -0.146 | Updates: 25 | Entropy: 1.613
+Ep  12500/500000 | Avg reward: -0.706 | Updates: 26 | Entropy: 1.601
+Ep  13000/500000 | Avg reward: -0.824 | Updates: 28 | Entropy: 1.578
+Ep  13500/500000 | Avg reward: +0.453 | Updates: 29 | Entropy: 1.550
+Ep  14000/500000 | Avg reward: -0.355 | Updates: 30 | Entropy: 1.521
+Ep  14500/500000 | Avg reward: -0.020 | Updates: 31 | Entropy: 1.494
+Ep  15000/500000 | Avg reward: -0.238 | Updates: 31 | Entropy: 1.494
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep15000.pth
+Ep  15500/500000 | Avg reward: -0.283 | Updates: 32 | Entropy: 1.451
+Ep  16000/500000 | Avg reward: -1.537 | Updates: 33 | Entropy: 1.412
+Ep  16500/500000 | Avg reward: -0.879 | Updates: 34 | Entropy: 1.390
+Ep  17000/500000 | Avg reward: +1.478 | Updates: 35 | Entropy: 1.370
+Ep  17500/500000 | Avg reward: +0.055 | Updates: 36 | Entropy: 1.339
+Ep  18000/500000 | Avg reward: -0.083 | Updates: 37 | Entropy: 1.305
+Ep  18500/500000 | Avg reward: -0.543 | Updates: 38 | Entropy: 1.244
+Ep  19000/500000 | Avg reward: -0.656 | Updates: 39 | Entropy: 1.163
+Ep  19500/500000 | Avg reward: +1.177 | Updates: 40 | Entropy: 1.100
+Ep  20000/500000 | Avg reward: +1.632 | Updates: 41 | Entropy: 1.013
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep20000.pth
+Ep  20500/500000 | Avg reward: -0.782 | Updates: 42 | Entropy: 0.984
+Ep  21000/500000 | Avg reward: +1.783 | Updates: 43 | Entropy: 0.977
+Ep  21500/500000 | Avg reward: +0.394 | Updates: 44 | Entropy: 0.949
+Ep  22000/500000 | Avg reward: -0.541 | Updates: 45 | Entropy: 0.943
+Ep  22500/500000 | Avg reward: +0.070 | Updates: 46 | Entropy: 1.011
+Ep  23000/500000 | Avg reward: -3.020 | Updates: 47 | Entropy: 1.048
+Ep  23500/500000 | Avg reward: +0.520 | Updates: 48 | Entropy: 1.039
+Ep  24000/500000 | Avg reward: +0.120 | Updates: 49 | Entropy: 1.023
+Ep  24500/500000 | Avg reward: -1.288 | Updates: 50 | Entropy: 1.019
+Ep  25000/500000 | Avg reward: -0.744 | Updates: 51 | Entropy: 1.067
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep25000.pth
+Ep  25500/500000 | Avg reward: +0.748 | Updates: 52 | Entropy: 1.070
+Ep  26000/500000 | Avg reward: -0.694 | Updates: 53 | Entropy: 1.078
+Ep  26500/500000 | Avg reward: -0.061 | Updates: 54 | Entropy: 1.147
+Ep  27000/500000 | Avg reward: +0.229 | Updates: 55 | Entropy: 1.131
+Ep  27500/500000 | Avg reward: -0.782 | Updates: 56 | Entropy: 1.203
+Ep  28000/500000 | Avg reward: +0.027 | Updates: 57 | Entropy: 1.297
+Ep  28500/500000 | Avg reward: +1.091 | Updates: 58 | Entropy: 1.236
+Ep  29000/500000 | Avg reward: -2.287 | Updates: 59 | Entropy: 1.330
+Ep  29500/500000 | Avg reward: -0.856 | Updates: 60 | Entropy: 1.371
+Ep  30000/500000 | Avg reward: +0.453 | Updates: 61 | Entropy: 1.405
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep30000.pth
+Ep  30500/500000 | Avg reward: +0.809 | Updates: 62 | Entropy: 1.418
+Ep  31000/500000 | Avg reward: +0.376 | Updates: 63 | Entropy: 1.454
+Ep  31500/500000 | Avg reward: -0.280 | Updates: 64 | Entropy: 1.505
+Ep  32000/500000 | Avg reward: -0.108 | Updates: 65 | Entropy: 1.539
+Ep  32500/500000 | Avg reward: -0.149 | Updates: 66 | Entropy: 1.567
+Ep  33000/500000 | Avg reward: -0.407 | Updates: 67 | Entropy: 1.565
+Ep  33500/500000 | Avg reward: -0.483 | Updates: 68 | Entropy: 1.557
+Ep  34000/500000 | Avg reward: +0.074 | Updates: 69 | Entropy: 1.515
+Ep  34500/500000 | Avg reward: +0.089 | Updates: 70 | Entropy: 1.470
+Ep  35000/500000 | Avg reward: +0.142 | Updates: 71 | Entropy: 1.475
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep35000.pth
+Ep  35500/500000 | Avg reward: -0.011 | Updates: 72 | Entropy: 1.516
+Ep  36000/500000 | Avg reward: -0.154 | Updates: 73 | Entropy: 1.516
+Ep  36500/500000 | Avg reward: -0.683 | Updates: 74 | Entropy: 1.500
+Ep  37000/500000 | Avg reward: -0.213 | Updates: 75 | Entropy: 1.442
+Ep  37500/500000 | Avg reward: +0.036 | Updates: 76 | Entropy: 1.444
+Ep  38000/500000 | Avg reward: -0.324 | Updates: 77 | Entropy: 1.467
+Ep  38500/500000 | Avg reward: +0.072 | Updates: 78 | Entropy: 1.431
+Ep  39000/500000 | Avg reward: -0.459 | Updates: 79 | Entropy: 1.414
+Ep  39500/500000 | Avg reward: -0.066 | Updates: 80 | Entropy: 1.417
+Ep  40000/500000 | Avg reward: +0.387 | Updates: 81 | Entropy: 1.438
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep40000.pth
+Ep  40500/500000 | Avg reward: +0.502 | Updates: 82 | Entropy: 1.421
+Ep  41000/500000 | Avg reward: -0.300 | Updates: 83 | Entropy: 1.441
+Ep  41500/500000 | Avg reward: +0.534 | Updates: 84 | Entropy: 1.384
+Ep  42000/500000 | Avg reward: +0.286 | Updates: 85 | Entropy: 1.407
+Ep  42500/500000 | Avg reward: +0.828 | Updates: 87 | Entropy: 1.367
+Ep  43000/500000 | Avg reward: -0.780 | Updates: 88 | Entropy: 1.362
+Ep  43500/500000 | Avg reward: -0.206 | Updates: 89 | Entropy: 1.373
+Ep  44000/500000 | Avg reward: +0.356 | Updates: 90 | Entropy: 1.395
+Ep  44500/500000 | Avg reward: +0.151 | Updates: 91 | Entropy: 1.401
+Ep  45000/500000 | Avg reward: -0.136 | Updates: 92 | Entropy: 1.365
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep45000.pth
+Ep  45500/500000 | Avg reward: +0.048 | Updates: 93 | Entropy: 1.313
+Ep  46000/500000 | Avg reward: -0.114 | Updates: 94 | Entropy: 1.321
+Ep  46500/500000 | Avg reward: -0.425 | Updates: 95 | Entropy: 1.299
+Ep  47000/500000 | Avg reward: -0.134 | Updates: 96 | Entropy: 1.266
+Ep  47500/500000 | Avg reward: -0.240 | Updates: 97 | Entropy: 1.245
+Ep  48000/500000 | Avg reward: -0.150 | Updates: 98 | Entropy: 1.268
+Ep  48500/500000 | Avg reward: -0.459 | Updates: 99 | Entropy: 1.259
+Ep  49000/500000 | Avg reward: +0.118 | Updates: 99 | Entropy: 1.259
+Ep  49500/500000 | Avg reward: -0.065 | Updates: 100 | Entropy: 1.263
+Ep  50000/500000 | Avg reward: +0.126 | Updates: 101 | Entropy: 1.266
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep50000.pth
+Ep  50500/500000 | Avg reward: +0.019 | Updates: 102 | Entropy: 1.209
+Ep  51000/500000 | Avg reward: -0.656 | Updates: 103 | Entropy: 1.182
+Ep  51500/500000 | Avg reward: +0.119 | Updates: 104 | Entropy: 1.142
+Ep  52000/500000 | Avg reward: -0.243 | Updates: 104 | Entropy: 1.142
+Ep  52500/500000 | Avg reward: +0.027 | Updates: 105 | Entropy: 1.121
+Ep  53000/500000 | Avg reward: +0.144 | Updates: 106 | Entropy: 1.143
+Ep  53500/500000 | Avg reward: -0.145 | Updates: 107 | Entropy: 1.101
+Ep  54000/500000 | Avg reward: -0.113 | Updates: 108 | Entropy: 1.035
+Ep  54500/500000 | Avg reward: -0.132 | Updates: 108 | Entropy: 1.035
+Ep  55000/500000 | Avg reward: -0.006 | Updates: 109 | Entropy: 1.006
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep55000.pth
+Ep  55500/500000 | Avg reward: +0.186 | Updates: 110 | Entropy: 1.014
+Ep  56000/500000 | Avg reward: -0.087 | Updates: 111 | Entropy: 1.106
+Ep  56500/500000 | Avg reward: +0.165 | Updates: 112 | Entropy: 1.087
+Ep  57000/500000 | Avg reward: -0.384 | Updates: 112 | Entropy: 1.087
+Ep  57500/500000 | Avg reward: -0.053 | Updates: 113 | Entropy: 1.071
+Ep  58000/500000 | Avg reward: +0.086 | Updates: 114 | Entropy: 1.048
+Ep  58500/500000 | Avg reward: +0.049 | Updates: 115 | Entropy: 1.050
+Ep  59000/500000 | Avg reward: +0.004 | Updates: 116 | Entropy: 0.941
+Ep  59500/500000 | Avg reward: +0.047 | Updates: 116 | Entropy: 0.941
+Ep  60000/500000 | Avg reward: +0.041 | Updates: 117 | Entropy: 1.019
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep60000.pth
+Ep  60500/500000 | Avg reward: -0.179 | Updates: 118 | Entropy: 0.963
+Ep  61000/500000 | Avg reward: -0.070 | Updates: 119 | Entropy: 0.986
+Ep  61500/500000 | Avg reward: +0.054 | Updates: 119 | Entropy: 0.986
+Ep  62000/500000 | Avg reward: +0.324 | Updates: 120 | Entropy: 1.030
+Ep  62500/500000 | Avg reward: +0.204 | Updates: 121 | Entropy: 1.049
+Ep  63000/500000 | Avg reward: -0.144 | Updates: 122 | Entropy: 1.061
+Ep  63500/500000 | Avg reward: -0.035 | Updates: 122 | Entropy: 1.061
+Ep  64000/500000 | Avg reward: -0.036 | Updates: 123 | Entropy: 1.037
+Ep  64500/500000 | Avg reward: +0.046 | Updates: 124 | Entropy: 0.975
+Ep  65000/500000 | Avg reward: +0.093 | Updates: 125 | Entropy: 0.944
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep65000.pth
+Ep  65500/500000 | Avg reward: -0.187 | Updates: 125 | Entropy: 0.944
+Ep  66000/500000 | Avg reward: +0.338 | Updates: 126 | Entropy: 0.921
+Ep  66500/500000 | Avg reward: -0.377 | Updates: 127 | Entropy: 0.900
+Ep  67000/500000 | Avg reward: -0.073 | Updates: 128 | Entropy: 0.887
+Ep  67500/500000 | Avg reward: -0.072 | Updates: 128 | Entropy: 0.887
+Ep  68000/500000 | Avg reward: +0.058 | Updates: 129 | Entropy: 0.844
+Ep  68500/500000 | Avg reward: +0.025 | Updates: 130 | Entropy: 0.868
+Ep  69000/500000 | Avg reward: -0.037 | Updates: 130 | Entropy: 0.868
+Ep  69500/500000 | Avg reward: -0.124 | Updates: 131 | Entropy: 0.909
+Ep  70000/500000 | Avg reward: -0.074 | Updates: 132 | Entropy: 0.887
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep70000.pth
+Ep  70500/500000 | Avg reward: +0.049 | Updates: 132 | Entropy: 0.887
+Ep  71000/500000 | Avg reward: +0.158 | Updates: 133 | Entropy: 0.915
+Ep  71500/500000 | Avg reward: +0.094 | Updates: 134 | Entropy: 0.937
+Ep  72000/500000 | Avg reward: -0.044 | Updates: 135 | Entropy: 0.936
+Ep  72500/500000 | Avg reward: +0.369 | Updates: 135 | Entropy: 0.936
+Ep  73000/500000 | Avg reward: +0.019 | Updates: 136 | Entropy: 0.940
+Ep  73500/500000 | Avg reward: -0.304 | Updates: 137 | Entropy: 0.974
+Ep  74000/500000 | Avg reward: -0.066 | Updates: 137 | Entropy: 0.974
+Ep  74500/500000 | Avg reward: -0.304 | Updates: 138 | Entropy: 0.899
+Ep  75000/500000 | Avg reward: -0.290 | Updates: 139 | Entropy: 0.922
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep75000.pth
+Ep  75500/500000 | Avg reward: +0.006 | Updates: 140 | Entropy: 0.862
+Ep  76000/500000 | Avg reward: +0.056 | Updates: 140 | Entropy: 0.862
+Ep  76500/500000 | Avg reward: -0.034 | Updates: 141 | Entropy: 0.893
+Ep  77000/500000 | Avg reward: +0.134 | Updates: 142 | Entropy: 0.952
+Ep  77500/500000 | Avg reward: +0.082 | Updates: 142 | Entropy: 0.952
+Ep  78000/500000 | Avg reward: -0.220 | Updates: 143 | Entropy: 0.966
+Ep  78500/500000 | Avg reward: +0.010 | Updates: 144 | Entropy: 1.017
+Ep  79000/500000 | Avg reward: -0.452 | Updates: 145 | Entropy: 0.970
+Ep  79500/500000 | Avg reward: -0.145 | Updates: 145 | Entropy: 0.970
+Ep  80000/500000 | Avg reward: +0.140 | Updates: 146 | Entropy: 1.014
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep80000.pth
+Ep  80500/500000 | Avg reward: +0.097 | Updates: 147 | Entropy: 1.051
+Ep  81000/500000 | Avg reward: +0.285 | Updates: 148 | Entropy: 1.099
+Ep  81500/500000 | Avg reward: -0.161 | Updates: 148 | Entropy: 1.099
+Ep  82000/500000 | Avg reward: +0.091 | Updates: 149 | Entropy: 1.117
+Ep  82500/500000 | Avg reward: -0.087 | Updates: 150 | Entropy: 1.067
+Ep  83000/500000 | Avg reward: +0.163 | Updates: 151 | Entropy: 1.050
+Ep  83500/500000 | Avg reward: +0.149 | Updates: 152 | Entropy: 1.092
+Ep  84000/500000 | Avg reward: -0.086 | Updates: 153 | Entropy: 1.043
+Ep  84500/500000 | Avg reward: -0.041 | Updates: 153 | Entropy: 1.043
+Ep  85000/500000 | Avg reward: +0.327 | Updates: 154 | Entropy: 1.005
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep85000.pth
+Ep  85500/500000 | Avg reward: +0.030 | Updates: 155 | Entropy: 1.013
+Ep  86000/500000 | Avg reward: -0.028 | Updates: 156 | Entropy: 1.021
+Ep  86500/500000 | Avg reward: +0.197 | Updates: 157 | Entropy: 1.016
+Ep  87000/500000 | Avg reward: +0.014 | Updates: 157 | Entropy: 1.016
+Ep  87500/500000 | Avg reward: +0.039 | Updates: 158 | Entropy: 1.029
+Ep  88000/500000 | Avg reward: -0.028 | Updates: 159 | Entropy: 1.034
+Ep  88500/500000 | Avg reward: -0.074 | Updates: 160 | Entropy: 1.029
+Ep  89000/500000 | Avg reward: +0.236 | Updates: 161 | Entropy: 1.058
+Ep  89500/500000 | Avg reward: +0.003 | Updates: 162 | Entropy: 1.074
+Ep  90000/500000 | Avg reward: +0.296 | Updates: 162 | Entropy: 1.074
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep90000.pth
+Ep  90500/500000 | Avg reward: -0.102 | Updates: 163 | Entropy: 1.073
+Ep  91000/500000 | Avg reward: +0.175 | Updates: 164 | Entropy: 1.128
+Ep  91500/500000 | Avg reward: -0.590 | Updates: 165 | Entropy: 1.081
+Ep  92000/500000 | Avg reward: -0.203 | Updates: 166 | Entropy: 0.933
+Ep  92500/500000 | Avg reward: +0.115 | Updates: 167 | Entropy: 1.015
+Ep  93000/500000 | Avg reward: +0.129 | Updates: 167 | Entropy: 1.015
+Ep  93500/500000 | Avg reward: +0.032 | Updates: 168 | Entropy: 1.074
+Ep  94000/500000 | Avg reward: +0.228 | Updates: 169 | Entropy: 1.037
+Ep  94500/500000 | Avg reward: -0.073 | Updates: 170 | Entropy: 1.037
+Ep  95000/500000 | Avg reward: +0.008 | Updates: 171 | Entropy: 1.076
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep95000.pth
+Ep  95500/500000 | Avg reward: +0.011 | Updates: 172 | Entropy: 0.997
+Ep  96000/500000 | Avg reward: -0.206 | Updates: 172 | Entropy: 0.997
+Ep  96500/500000 | Avg reward: +0.034 | Updates: 173 | Entropy: 0.989
+Ep  97000/500000 | Avg reward: +0.181 | Updates: 174 | Entropy: 0.974
+Ep  97500/500000 | Avg reward: +0.003 | Updates: 175 | Entropy: 1.012
+Ep  98000/500000 | Avg reward: +0.004 | Updates: 175 | Entropy: 1.012
+Ep  98500/500000 | Avg reward: -0.118 | Updates: 176 | Entropy: 1.009
+Ep  99000/500000 | Avg reward: -0.116 | Updates: 177 | Entropy: 0.987
+Ep  99500/500000 | Avg reward: -0.030 | Updates: 178 | Entropy: 1.067
+Ep 100000/500000 | Avg reward: +0.086 | Updates: 178 | Entropy: 1.067
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep100000.pth
+Ep 100500/500000 | Avg reward: +0.049 | Updates: 179 | Entropy: 1.092
+Ep 101000/500000 | Avg reward: +0.030 | Updates: 180 | Entropy: 1.115
+Ep 101500/500000 | Avg reward: -0.172 | Updates: 181 | Entropy: 1.145
+Ep 102000/500000 | Avg reward: -0.012 | Updates: 182 | Entropy: 1.224
+Ep 102500/500000 | Avg reward: -0.016 | Updates: 183 | Entropy: 1.137
+Ep 103000/500000 | Avg reward: -0.116 | Updates: 184 | Entropy: 1.160
+Ep 103500/500000 | Avg reward: -0.227 | Updates: 184 | Entropy: 1.160
+Ep 104000/500000 | Avg reward: +0.421 | Updates: 185 | Entropy: 1.115
+Ep 104500/500000 | Avg reward: +0.197 | Updates: 186 | Entropy: 1.154
+Ep 105000/500000 | Avg reward: -0.135 | Updates: 187 | Entropy: 1.182
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep105000.pth
+Ep 105500/500000 | Avg reward: +0.219 | Updates: 188 | Entropy: 1.110
+Ep 106000/500000 | Avg reward: +0.110 | Updates: 189 | Entropy: 1.108
+Ep 106500/500000 | Avg reward: +0.322 | Updates: 189 | Entropy: 1.108
+Ep 107000/500000 | Avg reward: +0.111 | Updates: 190 | Entropy: 1.117
+Ep 107500/500000 | Avg reward: +0.002 | Updates: 191 | Entropy: 1.152
+Ep 108000/500000 | Avg reward: +0.186 | Updates: 192 | Entropy: 1.129
+Ep 108500/500000 | Avg reward: +0.270 | Updates: 193 | Entropy: 1.098
+Ep 109000/500000 | Avg reward: -0.117 | Updates: 194 | Entropy: 1.065
+Ep 109500/500000 | Avg reward: -0.074 | Updates: 195 | Entropy: 1.071
+Ep 110000/500000 | Avg reward: -0.113 | Updates: 195 | Entropy: 1.071
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep110000.pth
+Ep 110500/500000 | Avg reward: +0.157 | Updates: 196 | Entropy: 1.040
+Ep 111000/500000 | Avg reward: -0.154 | Updates: 197 | Entropy: 1.042
+Ep 111500/500000 | Avg reward: +0.160 | Updates: 198 | Entropy: 1.061
+Ep 112000/500000 | Avg reward: +0.282 | Updates: 199 | Entropy: 1.086
+Ep 112500/500000 | Avg reward: +0.338 | Updates: 200 | Entropy: 1.120
+Ep 113000/500000 | Avg reward: -0.139 | Updates: 200 | Entropy: 1.120
+Ep 113500/500000 | Avg reward: -0.060 | Updates: 201 | Entropy: 1.086
+Ep 114000/500000 | Avg reward: +0.329 | Updates: 202 | Entropy: 1.071
+Ep 114500/500000 | Avg reward: +0.039 | Updates: 203 | Entropy: 1.052
+Ep 115000/500000 | Avg reward: -0.194 | Updates: 204 | Entropy: 1.063
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep115000.pth
+Ep 115500/500000 | Avg reward: -0.022 | Updates: 205 | Entropy: 1.054
+Ep 116000/500000 | Avg reward: +0.013 | Updates: 205 | Entropy: 1.054
+Ep 116500/500000 | Avg reward: +0.040 | Updates: 206 | Entropy: 1.080
+Ep 117000/500000 | Avg reward: -0.130 | Updates: 207 | Entropy: 1.132
+Ep 117500/500000 | Avg reward: +0.110 | Updates: 208 | Entropy: 1.164
+Ep 118000/500000 | Avg reward: -0.312 | Updates: 209 | Entropy: 1.175
+Ep 118500/500000 | Avg reward: +0.136 | Updates: 210 | Entropy: 1.179
+Ep 119000/500000 | Avg reward: +0.034 | Updates: 211 | Entropy: 1.161
+Ep 119500/500000 | Avg reward: +0.045 | Updates: 212 | Entropy: 1.163
+Ep 120000/500000 | Avg reward: -0.096 | Updates: 213 | Entropy: 1.167
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep120000.pth
+Ep 120500/500000 | Avg reward: +0.204 | Updates: 214 | Entropy: 1.176
+Ep 121000/500000 | Avg reward: +0.008 | Updates: 215 | Entropy: 1.155
+Ep 121500/500000 | Avg reward: +0.083 | Updates: 215 | Entropy: 1.155
+Ep 122000/500000 | Avg reward: -0.123 | Updates: 216 | Entropy: 1.120
+Ep 122500/500000 | Avg reward: +0.119 | Updates: 217 | Entropy: 1.162
+Ep 123000/500000 | Avg reward: -0.185 | Updates: 218 | Entropy: 1.089
+Ep 123500/500000 | Avg reward: +0.074 | Updates: 219 | Entropy: 1.083
+Ep 124000/500000 | Avg reward: -0.013 | Updates: 220 | Entropy: 1.128
+Ep 124500/500000 | Avg reward: -0.200 | Updates: 221 | Entropy: 1.160
+Ep 125000/500000 | Avg reward: -0.001 | Updates: 221 | Entropy: 1.160
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep125000.pth
+Ep 125500/500000 | Avg reward: +0.098 | Updates: 222 | Entropy: 1.125
+Ep 126000/500000 | Avg reward: -0.052 | Updates: 223 | Entropy: 1.228
+Ep 126500/500000 | Avg reward: +0.062 | Updates: 224 | Entropy: 1.223
+Ep 127000/500000 | Avg reward: +0.134 | Updates: 225 | Entropy: 1.220
+Ep 127500/500000 | Avg reward: +0.097 | Updates: 226 | Entropy: 1.228
+Ep 128000/500000 | Avg reward: +0.074 | Updates: 227 | Entropy: 1.227
+Ep 128500/500000 | Avg reward: +0.074 | Updates: 228 | Entropy: 1.261
+Ep 129000/500000 | Avg reward: -0.115 | Updates: 229 | Entropy: 1.231
+Ep 129500/500000 | Avg reward: -0.213 | Updates: 230 | Entropy: 1.198
+Ep 130000/500000 | Avg reward: -0.106 | Updates: 231 | Entropy: 1.183
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep130000.pth
+Ep 130500/500000 | Avg reward: +0.077 | Updates: 232 | Entropy: 1.184
+Ep 131000/500000 | Avg reward: -0.091 | Updates: 233 | Entropy: 1.197
+Ep 131500/500000 | Avg reward: -0.002 | Updates: 234 | Entropy: 1.149
+Ep 132000/500000 | Avg reward: +0.015 | Updates: 235 | Entropy: 1.161
+Ep 132500/500000 | Avg reward: -0.021 | Updates: 236 | Entropy: 1.167
+Ep 133000/500000 | Avg reward: +0.218 | Updates: 236 | Entropy: 1.167
+Ep 133500/500000 | Avg reward: +0.208 | Updates: 237 | Entropy: 1.153
+Ep 134000/500000 | Avg reward: -0.005 | Updates: 238 | Entropy: 1.190
+Ep 134500/500000 | Avg reward: +0.233 | Updates: 239 | Entropy: 1.148
+Ep 135000/500000 | Avg reward: +0.110 | Updates: 240 | Entropy: 1.155
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep135000.pth
+Ep 135500/500000 | Avg reward: +0.204 | Updates: 241 | Entropy: 1.178
+Ep 136000/500000 | Avg reward: +0.250 | Updates: 242 | Entropy: 1.218
+Ep 136500/500000 | Avg reward: +0.099 | Updates: 243 | Entropy: 1.209
+Ep 137000/500000 | Avg reward: -0.277 | Updates: 244 | Entropy: 1.142
+Ep 137500/500000 | Avg reward: +0.110 | Updates: 244 | Entropy: 1.142
+Ep 138000/500000 | Avg reward: +0.054 | Updates: 245 | Entropy: 1.172
+Ep 138500/500000 | Avg reward: +0.063 | Updates: 246 | Entropy: 1.217
+Ep 139000/500000 | Avg reward: +0.130 | Updates: 247 | Entropy: 1.198
+Ep 139500/500000 | Avg reward: -0.109 | Updates: 248 | Entropy: 1.217
+Ep 140000/500000 | Avg reward: -0.228 | Updates: 249 | Entropy: 1.226
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep140000.pth
+Ep 140500/500000 | Avg reward: +0.040 | Updates: 250 | Entropy: 1.224
+Ep 141000/500000 | Avg reward: -0.258 | Updates: 251 | Entropy: 1.252
+Ep 141500/500000 | Avg reward: -0.049 | Updates: 252 | Entropy: 1.216
+Ep 142000/500000 | Avg reward: +0.015 | Updates: 253 | Entropy: 1.245
+Ep 142500/500000 | Avg reward: +0.192 | Updates: 254 | Entropy: 1.303
+Ep 143000/500000 | Avg reward: +0.197 | Updates: 255 | Entropy: 1.298
+Ep 143500/500000 | Avg reward: +0.023 | Updates: 256 | Entropy: 1.298
+Ep 144000/500000 | Avg reward: +0.125 | Updates: 257 | Entropy: 1.341
+Ep 144500/500000 | Avg reward: +0.385 | Updates: 258 | Entropy: 1.315
+Ep 145000/500000 | Avg reward: +0.027 | Updates: 259 | Entropy: 1.286
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep145000.pth
+Ep 145500/500000 | Avg reward: -0.499 | Updates: 260 | Entropy: 1.300
+Ep 146000/500000 | Avg reward: +0.367 | Updates: 261 | Entropy: 1.264
+Ep 146500/500000 | Avg reward: -0.103 | Updates: 262 | Entropy: 1.306
+Ep 147000/500000 | Avg reward: -0.214 | Updates: 263 | Entropy: 1.282
+Ep 147500/500000 | Avg reward: +0.101 | Updates: 264 | Entropy: 1.263
+Ep 148000/500000 | Avg reward: -0.169 | Updates: 265 | Entropy: 1.278
+Ep 148500/500000 | Avg reward: +0.241 | Updates: 266 | Entropy: 1.269
+Ep 149000/500000 | Avg reward: +0.587 | Updates: 267 | Entropy: 1.276
+Ep 149500/500000 | Avg reward: +0.109 | Updates: 268 | Entropy: 1.264
+Ep 150000/500000 | Avg reward: -0.109 | Updates: 269 | Entropy: 1.219
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep150000.pth
+Ep 150500/500000 | Avg reward: +0.208 | Updates: 269 | Entropy: 1.219
+Ep 151000/500000 | Avg reward: +0.046 | Updates: 270 | Entropy: 1.269
+Ep 151500/500000 | Avg reward: -0.049 | Updates: 271 | Entropy: 1.215
+Ep 152000/500000 | Avg reward: +0.072 | Updates: 272 | Entropy: 1.217
+Ep 152500/500000 | Avg reward: -0.138 | Updates: 273 | Entropy: 1.246
+Ep 153000/500000 | Avg reward: -0.159 | Updates: 274 | Entropy: 1.243
+Ep 153500/500000 | Avg reward: -0.054 | Updates: 275 | Entropy: 1.266
+Ep 154000/500000 | Avg reward: -0.019 | Updates: 275 | Entropy: 1.266
+Ep 154500/500000 | Avg reward: +0.099 | Updates: 276 | Entropy: 1.242
+Ep 155000/500000 | Avg reward: -0.031 | Updates: 277 | Entropy: 1.261
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep155000.pth
+Ep 155500/500000 | Avg reward: +0.168 | Updates: 278 | Entropy: 1.284
+Ep 156000/500000 | Avg reward: +0.134 | Updates: 279 | Entropy: 1.305
+Ep 156500/500000 | Avg reward: -0.706 | Updates: 280 | Entropy: 1.258
+Ep 157000/500000 | Avg reward: -0.062 | Updates: 280 | Entropy: 1.258
+Ep 157500/500000 | Avg reward: -0.159 | Updates: 281 | Entropy: 1.223
+Ep 158000/500000 | Avg reward: -0.004 | Updates: 282 | Entropy: 1.221
+Ep 158500/500000 | Avg reward: -0.136 | Updates: 283 | Entropy: 1.232
+Ep 159000/500000 | Avg reward: -0.066 | Updates: 284 | Entropy: 1.186
+Ep 159500/500000 | Avg reward: +0.066 | Updates: 285 | Entropy: 1.208
+Ep 160000/500000 | Avg reward: +0.074 | Updates: 285 | Entropy: 1.208
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep160000.pth
+Ep 160500/500000 | Avg reward: -0.045 | Updates: 286 | Entropy: 1.203
+Ep 161000/500000 | Avg reward: +0.230 | Updates: 287 | Entropy: 1.214
+Ep 161500/500000 | Avg reward: +0.182 | Updates: 288 | Entropy: 1.217
+Ep 162000/500000 | Avg reward: -0.132 | Updates: 288 | Entropy: 1.217
+Ep 162500/500000 | Avg reward: +0.243 | Updates: 289 | Entropy: 1.161
+Ep 163000/500000 | Avg reward: +0.323 | Updates: 290 | Entropy: 1.168
+Ep 163500/500000 | Avg reward: +0.443 | Updates: 291 | Entropy: 1.182
+Ep 164000/500000 | Avg reward: +0.082 | Updates: 292 | Entropy: 1.168
+Ep 164500/500000 | Avg reward: +0.596 | Updates: 292 | Entropy: 1.168
+Ep 165000/500000 | Avg reward: +0.070 | Updates: 293 | Entropy: 1.185
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep165000.pth
+Ep 165500/500000 | Avg reward: +0.554 | Updates: 294 | Entropy: 1.163
+Ep 166000/500000 | Avg reward: +0.333 | Updates: 295 | Entropy: 1.154
+Ep 166500/500000 | Avg reward: -0.031 | Updates: 296 | Entropy: 1.121
+Ep 167000/500000 | Avg reward: -0.291 | Updates: 296 | Entropy: 1.121
+Ep 167500/500000 | Avg reward: -0.154 | Updates: 297 | Entropy: 1.118
+Ep 168000/500000 | Avg reward: -0.001 | Updates: 298 | Entropy: 1.099
+Ep 168500/500000 | Avg reward: -0.439 | Updates: 299 | Entropy: 1.064
+Ep 169000/500000 | Avg reward: -0.075 | Updates: 299 | Entropy: 1.064
+Ep 169500/500000 | Avg reward: -0.280 | Updates: 300 | Entropy: 1.038
+Ep 170000/500000 | Avg reward: -0.089 | Updates: 301 | Entropy: 1.038
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep170000.pth
+Ep 170500/500000 | Avg reward: -0.086 | Updates: 301 | Entropy: 1.038
+Ep 171000/500000 | Avg reward: +0.169 | Updates: 302 | Entropy: 1.024
+Ep 171500/500000 | Avg reward: -0.000 | Updates: 303 | Entropy: 1.029
+Ep 172000/500000 | Avg reward: -0.271 | Updates: 303 | Entropy: 1.029
+Ep 172500/500000 | Avg reward: +0.145 | Updates: 304 | Entropy: 0.926
+Ep 173000/500000 | Avg reward: -0.260 | Updates: 304 | Entropy: 0.926
+Ep 173500/500000 | Avg reward: +0.206 | Updates: 305 | Entropy: 0.916
+Ep 174000/500000 | Avg reward: -0.076 | Updates: 306 | Entropy: 0.890
+Ep 174500/500000 | Avg reward: +0.143 | Updates: 306 | Entropy: 0.890
+Ep 175000/500000 | Avg reward: -0.104 | Updates: 307 | Entropy: 0.868
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep175000.pth
+Ep 175500/500000 | Avg reward: +0.040 | Updates: 308 | Entropy: 0.873
+Ep 176000/500000 | Avg reward: +0.141 | Updates: 308 | Entropy: 0.873
+Ep 176500/500000 | Avg reward: +0.178 | Updates: 309 | Entropy: 0.843
+Ep 177000/500000 | Avg reward: +0.239 | Updates: 310 | Entropy: 0.840
+Ep 177500/500000 | Avg reward: -0.012 | Updates: 310 | Entropy: 0.840
+Ep 178000/500000 | Avg reward: -0.076 | Updates: 311 | Entropy: 0.815
+Ep 178500/500000 | Avg reward: +0.255 | Updates: 311 | Entropy: 0.815
+Ep 179000/500000 | Avg reward: +0.293 | Updates: 312 | Entropy: 0.808
+Ep 179500/500000 | Avg reward: +0.095 | Updates: 313 | Entropy: 0.841
+Ep 180000/500000 | Avg reward: -0.014 | Updates: 313 | Entropy: 0.841
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep180000.pth
+Ep 180500/500000 | Avg reward: -0.026 | Updates: 314 | Entropy: 0.856
+Ep 181000/500000 | Avg reward: -0.077 | Updates: 315 | Entropy: 0.813
+Ep 181500/500000 | Avg reward: +0.047 | Updates: 315 | Entropy: 0.813
+Ep 182000/500000 | Avg reward: -0.389 | Updates: 316 | Entropy: 0.806
+Ep 182500/500000 | Avg reward: +0.124 | Updates: 317 | Entropy: 0.798
+Ep 183000/500000 | Avg reward: -0.294 | Updates: 317 | Entropy: 0.798
+Ep 183500/500000 | Avg reward: -0.049 | Updates: 318 | Entropy: 0.754
+Ep 184000/500000 | Avg reward: -0.136 | Updates: 319 | Entropy: 0.764
+Ep 184500/500000 | Avg reward: -0.135 | Updates: 319 | Entropy: 0.764
+Ep 185000/500000 | Avg reward: -0.015 | Updates: 320 | Entropy: 0.683
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep185000.pth
+Ep 185500/500000 | Avg reward: -0.056 | Updates: 320 | Entropy: 0.683
+Ep 186000/500000 | Avg reward: -0.018 | Updates: 321 | Entropy: 0.689
+Ep 186500/500000 | Avg reward: -0.221 | Updates: 322 | Entropy: 0.735
+Ep 187000/500000 | Avg reward: -0.009 | Updates: 322 | Entropy: 0.735
+Ep 187500/500000 | Avg reward: +0.070 | Updates: 323 | Entropy: 0.760
+Ep 188000/500000 | Avg reward: -0.145 | Updates: 323 | Entropy: 0.760
+Ep 188500/500000 | Avg reward: -0.104 | Updates: 324 | Entropy: 0.745
+Ep 189000/500000 | Avg reward: -0.053 | Updates: 324 | Entropy: 0.745
+Ep 189500/500000 | Avg reward: +0.060 | Updates: 325 | Entropy: 0.741
+Ep 190000/500000 | Avg reward: +0.046 | Updates: 326 | Entropy: 0.702
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep190000.pth
+Ep 190500/500000 | Avg reward: -0.101 | Updates: 326 | Entropy: 0.702
+Ep 191000/500000 | Avg reward: +0.116 | Updates: 327 | Entropy: 0.686
+Ep 191500/500000 | Avg reward: +0.020 | Updates: 328 | Entropy: 0.686
+Ep 192000/500000 | Avg reward: -0.055 | Updates: 328 | Entropy: 0.686
+Ep 192500/500000 | Avg reward: -0.048 | Updates: 329 | Entropy: 0.673
+Ep 193000/500000 | Avg reward: +0.020 | Updates: 329 | Entropy: 0.673
+Ep 193500/500000 | Avg reward: -0.167 | Updates: 330 | Entropy: 0.642
+Ep 194000/500000 | Avg reward: -0.117 | Updates: 331 | Entropy: 0.638
+Ep 194500/500000 | Avg reward: -0.003 | Updates: 331 | Entropy: 0.638
+Ep 195000/500000 | Avg reward: -0.049 | Updates: 332 | Entropy: 0.674
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep195000.pth
+Ep 195500/500000 | Avg reward: +0.003 | Updates: 332 | Entropy: 0.674
+Ep 196000/500000 | Avg reward: +0.053 | Updates: 333 | Entropy: 0.678
+Ep 196500/500000 | Avg reward: +0.031 | Updates: 334 | Entropy: 0.688
+Ep 197000/500000 | Avg reward: +0.047 | Updates: 334 | Entropy: 0.688
+Ep 197500/500000 | Avg reward: -0.035 | Updates: 335 | Entropy: 0.694
+Ep 198000/500000 | Avg reward: -0.007 | Updates: 335 | Entropy: 0.694
+Ep 198500/500000 | Avg reward: +0.182 | Updates: 336 | Entropy: 0.719
+Ep 199000/500000 | Avg reward: +0.116 | Updates: 337 | Entropy: 0.747
+Ep 199500/500000 | Avg reward: -0.093 | Updates: 337 | Entropy: 0.747
+Ep 200000/500000 | Avg reward: +0.025 | Updates: 338 | Entropy: 0.726
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep200000.pth
+Ep 200500/500000 | Avg reward: +0.075 | Updates: 339 | Entropy: 0.706
+Ep 201000/500000 | Avg reward: -0.020 | Updates: 339 | Entropy: 0.706
+Ep 201500/500000 | Avg reward: -0.208 | Updates: 340 | Entropy: 0.722
+Ep 202000/500000 | Avg reward: +0.034 | Updates: 341 | Entropy: 0.768
+Ep 202500/500000 | Avg reward: -0.054 | Updates: 341 | Entropy: 0.768
+Ep 203000/500000 | Avg reward: -0.050 | Updates: 342 | Entropy: 0.676
+Ep 203500/500000 | Avg reward: +0.075 | Updates: 342 | Entropy: 0.676
+Ep 204000/500000 | Avg reward: +0.093 | Updates: 343 | Entropy: 0.653
+Ep 204500/500000 | Avg reward: -0.033 | Updates: 344 | Entropy: 0.657
+Ep 205000/500000 | Avg reward: -0.020 | Updates: 344 | Entropy: 0.657
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep205000.pth
+Ep 205500/500000 | Avg reward: +0.078 | Updates: 345 | Entropy: 0.694
+Ep 206000/500000 | Avg reward: -0.062 | Updates: 345 | Entropy: 0.694
+Ep 206500/500000 | Avg reward: +0.036 | Updates: 346 | Entropy: 0.693
+Ep 207000/500000 | Avg reward: +0.017 | Updates: 347 | Entropy: 0.680
+Ep 207500/500000 | Avg reward: +0.021 | Updates: 347 | Entropy: 0.680
+Ep 208000/500000 | Avg reward: +0.201 | Updates: 348 | Entropy: 0.721
+Ep 208500/500000 | Avg reward: -0.118 | Updates: 349 | Entropy: 0.697
+Ep 209000/500000 | Avg reward: +0.000 | Updates: 349 | Entropy: 0.697
+Ep 209500/500000 | Avg reward: -0.113 | Updates: 350 | Entropy: 0.672
+Ep 210000/500000 | Avg reward: +0.067 | Updates: 351 | Entropy: 0.631
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep210000.pth
+Ep 210500/500000 | Avg reward: +0.158 | Updates: 351 | Entropy: 0.631
+Ep 211000/500000 | Avg reward: -0.136 | Updates: 352 | Entropy: 0.593
+Ep 211500/500000 | Avg reward: -0.126 | Updates: 352 | Entropy: 0.593
+Ep 212000/500000 | Avg reward: +0.135 | Updates: 353 | Entropy: 0.644
+Ep 212500/500000 | Avg reward: +0.014 | Updates: 354 | Entropy: 0.621
+Ep 213000/500000 | Avg reward: -0.059 | Updates: 354 | Entropy: 0.621
+Ep 213500/500000 | Avg reward: -0.053 | Updates: 355 | Entropy: 0.603
+Ep 214000/500000 | Avg reward: +0.071 | Updates: 355 | Entropy: 0.603
+Ep 214500/500000 | Avg reward: -0.155 | Updates: 356 | Entropy: 0.574
+Ep 215000/500000 | Avg reward: +0.058 | Updates: 357 | Entropy: 0.595
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep215000.pth
+Ep 215500/500000 | Avg reward: +0.133 | Updates: 357 | Entropy: 0.595
+Ep 216000/500000 | Avg reward: +0.029 | Updates: 358 | Entropy: 0.577
+Ep 216500/500000 | Avg reward: -0.130 | Updates: 358 | Entropy: 0.577
+Ep 217000/500000 | Avg reward: -0.030 | Updates: 359 | Entropy: 0.564
+Ep 217500/500000 | Avg reward: -0.073 | Updates: 360 | Entropy: 0.514
+Ep 218000/500000 | Avg reward: +0.001 | Updates: 360 | Entropy: 0.514
+Ep 218500/500000 | Avg reward: +0.001 | Updates: 361 | Entropy: 0.564
+Ep 219000/500000 | Avg reward: -0.167 | Updates: 361 | Entropy: 0.564
+Ep 219500/500000 | Avg reward: +0.008 | Updates: 362 | Entropy: 0.618
+Ep 220000/500000 | Avg reward: +0.032 | Updates: 363 | Entropy: 0.614
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep220000.pth
+Ep 220500/500000 | Avg reward: +0.039 | Updates: 363 | Entropy: 0.614
+Ep 221000/500000 | Avg reward: -0.046 | Updates: 364 | Entropy: 0.636
+Ep 221500/500000 | Avg reward: +0.067 | Updates: 364 | Entropy: 0.636
+Ep 222000/500000 | Avg reward: -0.021 | Updates: 365 | Entropy: 0.605
+Ep 222500/500000 | Avg reward: +0.014 | Updates: 366 | Entropy: 0.601
+Ep 223000/500000 | Avg reward: -0.121 | Updates: 366 | Entropy: 0.601
+Ep 223500/500000 | Avg reward: -0.061 | Updates: 367 | Entropy: 0.587
+Ep 224000/500000 | Avg reward: +0.023 | Updates: 367 | Entropy: 0.587
+Ep 224500/500000 | Avg reward: +0.040 | Updates: 368 | Entropy: 0.581
+Ep 225000/500000 | Avg reward: -0.046 | Updates: 369 | Entropy: 0.608
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep225000.pth
+Ep 225500/500000 | Avg reward: -0.004 | Updates: 369 | Entropy: 0.608
+Ep 226000/500000 | Avg reward: -0.168 | Updates: 370 | Entropy: 0.628
+Ep 226500/500000 | Avg reward: -0.050 | Updates: 370 | Entropy: 0.628
+Ep 227000/500000 | Avg reward: +0.022 | Updates: 371 | Entropy: 0.596
+Ep 227500/500000 | Avg reward: +0.053 | Updates: 371 | Entropy: 0.596
+Ep 228000/500000 | Avg reward: +0.089 | Updates: 372 | Entropy: 0.608
+Ep 228500/500000 | Avg reward: -0.055 | Updates: 373 | Entropy: 0.619
+Ep 229000/500000 | Avg reward: -0.079 | Updates: 373 | Entropy: 0.619
+Ep 229500/500000 | Avg reward: +0.098 | Updates: 374 | Entropy: 0.644
+Ep 230000/500000 | Avg reward: +0.014 | Updates: 375 | Entropy: 0.671
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep230000.pth
+Ep 230500/500000 | Avg reward: +0.131 | Updates: 375 | Entropy: 0.671
+Ep 231000/500000 | Avg reward: -0.187 | Updates: 376 | Entropy: 0.669
+Ep 231500/500000 | Avg reward: -0.097 | Updates: 377 | Entropy: 0.685
+Ep 232000/500000 | Avg reward: -0.098 | Updates: 377 | Entropy: 0.685
+Ep 232500/500000 | Avg reward: +0.267 | Updates: 378 | Entropy: 0.596
+Ep 233000/500000 | Avg reward: +0.109 | Updates: 378 | Entropy: 0.596
+Ep 233500/500000 | Avg reward: +0.109 | Updates: 379 | Entropy: 0.651
+Ep 234000/500000 | Avg reward: +0.021 | Updates: 380 | Entropy: 0.681
+Ep 234500/500000 | Avg reward: +0.059 | Updates: 380 | Entropy: 0.681
+Ep 235000/500000 | Avg reward: +0.069 | Updates: 381 | Entropy: 0.614
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep235000.pth
+Ep 235500/500000 | Avg reward: +0.074 | Updates: 381 | Entropy: 0.614
+Ep 236000/500000 | Avg reward: +0.055 | Updates: 382 | Entropy: 0.638
+Ep 236500/500000 | Avg reward: +0.224 | Updates: 383 | Entropy: 0.654
+Ep 237000/500000 | Avg reward: -0.150 | Updates: 383 | Entropy: 0.654
+Ep 237500/500000 | Avg reward: -0.049 | Updates: 384 | Entropy: 0.648
+Ep 238000/500000 | Avg reward: +0.136 | Updates: 385 | Entropy: 0.651
+Ep 238500/500000 | Avg reward: -0.004 | Updates: 385 | Entropy: 0.651
+Ep 239000/500000 | Avg reward: +0.151 | Updates: 386 | Entropy: 0.623
+Ep 239500/500000 | Avg reward: -0.062 | Updates: 387 | Entropy: 0.634
+Ep 240000/500000 | Avg reward: -0.176 | Updates: 387 | Entropy: 0.634
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep240000.pth
+Ep 240500/500000 | Avg reward: +0.123 | Updates: 388 | Entropy: 0.566
+Ep 241000/500000 | Avg reward: +0.001 | Updates: 388 | Entropy: 0.566
+Ep 241500/500000 | Avg reward: +0.029 | Updates: 389 | Entropy: 0.524
+Ep 242000/500000 | Avg reward: +0.144 | Updates: 390 | Entropy: 0.559
+Ep 242500/500000 | Avg reward: -0.043 | Updates: 390 | Entropy: 0.559
+Ep 243000/500000 | Avg reward: -0.107 | Updates: 391 | Entropy: 0.538
+Ep 243500/500000 | Avg reward: -0.019 | Updates: 391 | Entropy: 0.538
+Ep 244000/500000 | Avg reward: +0.031 | Updates: 392 | Entropy: 0.543
+Ep 244500/500000 | Avg reward: +0.015 | Updates: 393 | Entropy: 0.578
+Ep 245000/500000 | Avg reward: +0.082 | Updates: 393 | Entropy: 0.578
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep245000.pth
+Ep 245500/500000 | Avg reward: -0.029 | Updates: 394 | Entropy: 0.594
+Ep 246000/500000 | Avg reward: +0.103 | Updates: 395 | Entropy: 0.624
+Ep 246500/500000 | Avg reward: -0.018 | Updates: 395 | Entropy: 0.624
+Ep 247000/500000 | Avg reward: -0.023 | Updates: 396 | Entropy: 0.622
+Ep 247500/500000 | Avg reward: +0.110 | Updates: 397 | Entropy: 0.681
+Ep 248000/500000 | Avg reward: -0.015 | Updates: 397 | Entropy: 0.681
+Ep 248500/500000 | Avg reward: +0.018 | Updates: 398 | Entropy: 0.611
+Ep 249000/500000 | Avg reward: +0.003 | Updates: 398 | Entropy: 0.611
+Ep 249500/500000 | Avg reward: -0.003 | Updates: 399 | Entropy: 0.610
+Ep 250000/500000 | Avg reward: -0.080 | Updates: 400 | Entropy: 0.620
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep250000.pth
+Ep 250500/500000 | Avg reward: +0.003 | Updates: 400 | Entropy: 0.620
+Ep 251000/500000 | Avg reward: -0.045 | Updates: 401 | Entropy: 0.586
+Ep 251500/500000 | Avg reward: -0.051 | Updates: 401 | Entropy: 0.586
+Ep 252000/500000 | Avg reward: +0.039 | Updates: 402 | Entropy: 0.611
+Ep 252500/500000 | Avg reward: -0.090 | Updates: 403 | Entropy: 0.700
+Ep 253000/500000 | Avg reward: +0.031 | Updates: 403 | Entropy: 0.700
+Ep 253500/500000 | Avg reward: -0.132 | Updates: 404 | Entropy: 0.707
+Ep 254000/500000 | Avg reward: +0.043 | Updates: 405 | Entropy: 0.698
+Ep 254500/500000 | Avg reward: -0.004 | Updates: 405 | Entropy: 0.698
+Ep 255000/500000 | Avg reward: -0.018 | Updates: 406 | Entropy: 0.699
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep255000.pth
+Ep 255500/500000 | Avg reward: -0.075 | Updates: 407 | Entropy: 0.742
+Ep 256000/500000 | Avg reward: +0.015 | Updates: 407 | Entropy: 0.742
+Ep 256500/500000 | Avg reward: +0.187 | Updates: 408 | Entropy: 0.753
+Ep 257000/500000 | Avg reward: +0.052 | Updates: 409 | Entropy: 0.752
+Ep 257500/500000 | Avg reward: -0.016 | Updates: 409 | Entropy: 0.752
+Ep 258000/500000 | Avg reward: +0.021 | Updates: 410 | Entropy: 0.771
+Ep 258500/500000 | Avg reward: +0.039 | Updates: 411 | Entropy: 0.792
+Ep 259000/500000 | Avg reward: -0.025 | Updates: 412 | Entropy: 0.752
+Ep 259500/500000 | Avg reward: +0.192 | Updates: 412 | Entropy: 0.752
+Ep 260000/500000 | Avg reward: -0.031 | Updates: 413 | Entropy: 0.778
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep260000.pth
+Ep 260500/500000 | Avg reward: +0.097 | Updates: 414 | Entropy: 0.795
+Ep 261000/500000 | Avg reward: +0.151 | Updates: 414 | Entropy: 0.795
+Ep 261500/500000 | Avg reward: +0.029 | Updates: 415 | Entropy: 0.780
+Ep 262000/500000 | Avg reward: +0.117 | Updates: 416 | Entropy: 0.791
+Ep 262500/500000 | Avg reward: -0.142 | Updates: 416 | Entropy: 0.791
+Ep 263000/500000 | Avg reward: +0.034 | Updates: 417 | Entropy: 0.779
+Ep 263500/500000 | Avg reward: +0.125 | Updates: 418 | Entropy: 0.766
+Ep 264000/500000 | Avg reward: -0.155 | Updates: 419 | Entropy: 0.731
+Ep 264500/500000 | Avg reward: +0.095 | Updates: 419 | Entropy: 0.731
+Ep 265000/500000 | Avg reward: +0.029 | Updates: 420 | Entropy: 0.700
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep265000.pth
+Ep 265500/500000 | Avg reward: -0.175 | Updates: 421 | Entropy: 0.705
+Ep 266000/500000 | Avg reward: +0.212 | Updates: 421 | Entropy: 0.705
+Ep 266500/500000 | Avg reward: -0.021 | Updates: 422 | Entropy: 0.688
+Ep 267000/500000 | Avg reward: +0.149 | Updates: 423 | Entropy: 0.692
+Ep 267500/500000 | Avg reward: +0.089 | Updates: 423 | Entropy: 0.692
+Ep 268000/500000 | Avg reward: +0.016 | Updates: 424 | Entropy: 0.731
+Ep 268500/500000 | Avg reward: +0.047 | Updates: 425 | Entropy: 0.654
+Ep 269000/500000 | Avg reward: +0.078 | Updates: 425 | Entropy: 0.654
+Ep 269500/500000 | Avg reward: -0.089 | Updates: 426 | Entropy: 0.678
+Ep 270000/500000 | Avg reward: -0.004 | Updates: 426 | Entropy: 0.678
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep270000.pth
+Ep 270500/500000 | Avg reward: +0.273 | Updates: 427 | Entropy: 0.688
+Ep 271000/500000 | Avg reward: -0.079 | Updates: 428 | Entropy: 0.709
+Ep 271500/500000 | Avg reward: +0.033 | Updates: 428 | Entropy: 0.709
+Ep 272000/500000 | Avg reward: +0.035 | Updates: 429 | Entropy: 0.622
+Ep 272500/500000 | Avg reward: +0.079 | Updates: 430 | Entropy: 0.674
+Ep 273000/500000 | Avg reward: -0.071 | Updates: 430 | Entropy: 0.674
+Ep 273500/500000 | Avg reward: +0.096 | Updates: 431 | Entropy: 0.684
+Ep 274000/500000 | Avg reward: +0.076 | Updates: 432 | Entropy: 0.642
+Ep 274500/500000 | Avg reward: +0.139 | Updates: 432 | Entropy: 0.642
+Ep 275000/500000 | Avg reward: -0.043 | Updates: 433 | Entropy: 0.679
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep275000.pth
+Ep 275500/500000 | Avg reward: +0.082 | Updates: 434 | Entropy: 0.697
+Ep 276000/500000 | Avg reward: -0.149 | Updates: 434 | Entropy: 0.697
+Ep 276500/500000 | Avg reward: -0.037 | Updates: 435 | Entropy: 0.615
+Ep 277000/500000 | Avg reward: -0.017 | Updates: 435 | Entropy: 0.615
+Ep 277500/500000 | Avg reward: -0.184 | Updates: 436 | Entropy: 0.616
+Ep 278000/500000 | Avg reward: +0.164 | Updates: 437 | Entropy: 0.535
+Ep 278500/500000 | Avg reward: -0.050 | Updates: 437 | Entropy: 0.535
+Ep 279000/500000 | Avg reward: +0.012 | Updates: 438 | Entropy: 0.596
+Ep 279500/500000 | Avg reward: -0.024 | Updates: 439 | Entropy: 0.577
+Ep 280000/500000 | Avg reward: +0.085 | Updates: 439 | Entropy: 0.577
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep280000.pth
+Ep 280500/500000 | Avg reward: +0.021 | Updates: 440 | Entropy: 0.599
+Ep 281000/500000 | Avg reward: +0.027 | Updates: 440 | Entropy: 0.599
+Ep 281500/500000 | Avg reward: -0.077 | Updates: 441 | Entropy: 0.577
+Ep 282000/500000 | Avg reward: +0.041 | Updates: 442 | Entropy: 0.576
+Ep 282500/500000 | Avg reward: +0.145 | Updates: 442 | Entropy: 0.576
+Ep 283000/500000 | Avg reward: -0.053 | Updates: 443 | Entropy: 0.609
+Ep 283500/500000 | Avg reward: -0.155 | Updates: 443 | Entropy: 0.609
+Ep 284000/500000 | Avg reward: +0.043 | Updates: 444 | Entropy: 0.637
+Ep 284500/500000 | Avg reward: +0.046 | Updates: 445 | Entropy: 0.642
+Ep 285000/500000 | Avg reward: +0.187 | Updates: 445 | Entropy: 0.642
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep285000.pth
+Ep 285500/500000 | Avg reward: -0.164 | Updates: 446 | Entropy: 0.707
+Ep 286000/500000 | Avg reward: -0.067 | Updates: 447 | Entropy: 0.725
+Ep 286500/500000 | Avg reward: -0.109 | Updates: 447 | Entropy: 0.725
+Ep 287000/500000 | Avg reward: -0.044 | Updates: 448 | Entropy: 0.626
+Ep 287500/500000 | Avg reward: +0.109 | Updates: 449 | Entropy: 0.666
+Ep 288000/500000 | Avg reward: -0.109 | Updates: 449 | Entropy: 0.666
+Ep 288500/500000 | Avg reward: -0.103 | Updates: 450 | Entropy: 0.658
+Ep 289000/500000 | Avg reward: -0.002 | Updates: 451 | Entropy: 0.637
+Ep 289500/500000 | Avg reward: +0.011 | Updates: 451 | Entropy: 0.637
+Ep 290000/500000 | Avg reward: +0.086 | Updates: 452 | Entropy: 0.603
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep290000.pth
+Ep 290500/500000 | Avg reward: +0.023 | Updates: 453 | Entropy: 0.602
+Ep 291000/500000 | Avg reward: +0.069 | Updates: 453 | Entropy: 0.602
+Ep 291500/500000 | Avg reward: +0.107 | Updates: 454 | Entropy: 0.576
+Ep 292000/500000 | Avg reward: -0.150 | Updates: 454 | Entropy: 0.576
+Ep 292500/500000 | Avg reward: -0.178 | Updates: 455 | Entropy: 0.584
+Ep 293000/500000 | Avg reward: -0.027 | Updates: 456 | Entropy: 0.555
+Ep 293500/500000 | Avg reward: +0.035 | Updates: 456 | Entropy: 0.555
+Ep 294000/500000 | Avg reward: -0.056 | Updates: 457 | Entropy: 0.556
+Ep 294500/500000 | Avg reward: +0.016 | Updates: 458 | Entropy: 0.574
+Ep 295000/500000 | Avg reward: -0.106 | Updates: 458 | Entropy: 0.574
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep295000.pth
+Ep 295500/500000 | Avg reward: -0.076 | Updates: 459 | Entropy: 0.547
+Ep 296000/500000 | Avg reward: -0.071 | Updates: 460 | Entropy: 0.518
+Ep 296500/500000 | Avg reward: +0.025 | Updates: 460 | Entropy: 0.518
+Ep 297000/500000 | Avg reward: -0.003 | Updates: 461 | Entropy: 0.543
+Ep 297500/500000 | Avg reward: -0.033 | Updates: 461 | Entropy: 0.543
+Ep 298000/500000 | Avg reward: -0.021 | Updates: 462 | Entropy: 0.580
+Ep 298500/500000 | Avg reward: -0.104 | Updates: 463 | Entropy: 0.546
+Ep 299000/500000 | Avg reward: -0.043 | Updates: 463 | Entropy: 0.546
+Ep 299500/500000 | Avg reward: -0.072 | Updates: 464 | Entropy: 0.575
+Ep 300000/500000 | Avg reward: -0.026 | Updates: 464 | Entropy: 0.575
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep300000.pth
+Ep 300500/500000 | Avg reward: +0.025 | Updates: 465 | Entropy: 0.577
+Ep 301000/500000 | Avg reward: +0.008 | Updates: 466 | Entropy: 0.570
+Ep 301500/500000 | Avg reward: +0.025 | Updates: 466 | Entropy: 0.570
+Ep 302000/500000 | Avg reward: +0.079 | Updates: 467 | Entropy: 0.639
+Ep 302500/500000 | Avg reward: +0.161 | Updates: 468 | Entropy: 0.613
+Ep 303000/500000 | Avg reward: +0.020 | Updates: 468 | Entropy: 0.613
+Ep 303500/500000 | Avg reward: +0.195 | Updates: 469 | Entropy: 0.637
+Ep 304000/500000 | Avg reward: -0.018 | Updates: 470 | Entropy: 0.636
+Ep 304500/500000 | Avg reward: -0.161 | Updates: 471 | Entropy: 0.627
+Ep 305000/500000 | Avg reward: -0.076 | Updates: 471 | Entropy: 0.627
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep305000.pth
+Ep 305500/500000 | Avg reward: +0.030 | Updates: 472 | Entropy: 0.595
+Ep 306000/500000 | Avg reward: +0.033 | Updates: 473 | Entropy: 0.606
+Ep 306500/500000 | Avg reward: +0.052 | Updates: 473 | Entropy: 0.606
+Ep 307000/500000 | Avg reward: +0.005 | Updates: 474 | Entropy: 0.697
+Ep 307500/500000 | Avg reward: +0.213 | Updates: 475 | Entropy: 0.693
+Ep 308000/500000 | Avg reward: -0.159 | Updates: 475 | Entropy: 0.693
+Ep 308500/500000 | Avg reward: +0.023 | Updates: 476 | Entropy: 0.697
+Ep 309000/500000 | Avg reward: -0.074 | Updates: 477 | Entropy: 0.659
+Ep 309500/500000 | Avg reward: -0.092 | Updates: 477 | Entropy: 0.659
+Ep 310000/500000 | Avg reward: +0.017 | Updates: 478 | Entropy: 0.711
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep310000.pth
+Ep 310500/500000 | Avg reward: +0.021 | Updates: 479 | Entropy: 0.669
+Ep 311000/500000 | Avg reward: +0.197 | Updates: 479 | Entropy: 0.669
+Ep 311500/500000 | Avg reward: +0.106 | Updates: 480 | Entropy: 0.732
+Ep 312000/500000 | Avg reward: -0.069 | Updates: 481 | Entropy: 0.752
+Ep 312500/500000 | Avg reward: -0.100 | Updates: 482 | Entropy: 0.776
+Ep 313000/500000 | Avg reward: +0.024 | Updates: 482 | Entropy: 0.776
+Ep 313500/500000 | Avg reward: +0.313 | Updates: 483 | Entropy: 0.723
+Ep 314000/500000 | Avg reward: +0.060 | Updates: 484 | Entropy: 0.754
+Ep 314500/500000 | Avg reward: -0.007 | Updates: 484 | Entropy: 0.754
+Ep 315000/500000 | Avg reward: +0.020 | Updates: 485 | Entropy: 0.730
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep315000.pth
+Ep 315500/500000 | Avg reward: -0.073 | Updates: 486 | Entropy: 0.702
+Ep 316000/500000 | Avg reward: +0.001 | Updates: 486 | Entropy: 0.702
+Ep 316500/500000 | Avg reward: +0.213 | Updates: 487 | Entropy: 0.696
+Ep 317000/500000 | Avg reward: -0.003 | Updates: 488 | Entropy: 0.701
+Ep 317500/500000 | Avg reward: -0.163 | Updates: 488 | Entropy: 0.701
+Ep 318000/500000 | Avg reward: +0.024 | Updates: 489 | Entropy: 0.649
+Ep 318500/500000 | Avg reward: -0.075 | Updates: 490 | Entropy: 0.650
+Ep 319000/500000 | Avg reward: -0.081 | Updates: 490 | Entropy: 0.650
+Ep 319500/500000 | Avg reward: -0.052 | Updates: 491 | Entropy: 0.622
+Ep 320000/500000 | Avg reward: +0.080 | Updates: 492 | Entropy: 0.623
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep320000.pth
+Ep 320500/500000 | Avg reward: -0.075 | Updates: 492 | Entropy: 0.623
+Ep 321000/500000 | Avg reward: +0.070 | Updates: 493 | Entropy: 0.570
+Ep 321500/500000 | Avg reward: -0.065 | Updates: 494 | Entropy: 0.617
+Ep 322000/500000 | Avg reward: -0.087 | Updates: 494 | Entropy: 0.617
+Ep 322500/500000 | Avg reward: -0.008 | Updates: 495 | Entropy: 0.630
+Ep 323000/500000 | Avg reward: +0.190 | Updates: 496 | Entropy: 0.673
+Ep 323500/500000 | Avg reward: -0.112 | Updates: 496 | Entropy: 0.673
+Ep 324000/500000 | Avg reward: +0.068 | Updates: 497 | Entropy: 0.599
+Ep 324500/500000 | Avg reward: -0.112 | Updates: 498 | Entropy: 0.583
+Ep 325000/500000 | Avg reward: +0.021 | Updates: 498 | Entropy: 0.583
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep325000.pth
+Ep 325500/500000 | Avg reward: -0.090 | Updates: 499 | Entropy: 0.596
+Ep 326000/500000 | Avg reward: +0.056 | Updates: 499 | Entropy: 0.596
+Ep 326500/500000 | Avg reward: -0.064 | Updates: 500 | Entropy: 0.576
+Ep 327000/500000 | Avg reward: +0.013 | Updates: 501 | Entropy: 0.651
+Ep 327500/500000 | Avg reward: +0.013 | Updates: 501 | Entropy: 0.651
+Ep 328000/500000 | Avg reward: -0.024 | Updates: 502 | Entropy: 0.633
+Ep 328500/500000 | Avg reward: +0.109 | Updates: 503 | Entropy: 0.673
+Ep 329000/500000 | Avg reward: +0.014 | Updates: 503 | Entropy: 0.673
+Ep 329500/500000 | Avg reward: -0.083 | Updates: 504 | Entropy: 0.664
+Ep 330000/500000 | Avg reward: +0.037 | Updates: 505 | Entropy: 0.676
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep330000.pth
+Ep 330500/500000 | Avg reward: +0.070 | Updates: 505 | Entropy: 0.676
+Ep 331000/500000 | Avg reward: +0.028 | Updates: 506 | Entropy: 0.692
+Ep 331500/500000 | Avg reward: +0.147 | Updates: 506 | Entropy: 0.692
+Ep 332000/500000 | Avg reward: +0.018 | Updates: 507 | Entropy: 0.683
+Ep 332500/500000 | Avg reward: -0.073 | Updates: 508 | Entropy: 0.680
+Ep 333000/500000 | Avg reward: -0.080 | Updates: 508 | Entropy: 0.680
+Ep 333500/500000 | Avg reward: +0.174 | Updates: 509 | Entropy: 0.709
+Ep 334000/500000 | Avg reward: -0.025 | Updates: 510 | Entropy: 0.662
+Ep 334500/500000 | Avg reward: -0.007 | Updates: 511 | Entropy: 0.693
+Ep 335000/500000 | Avg reward: +0.039 | Updates: 511 | Entropy: 0.693
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep335000.pth
+Ep 335500/500000 | Avg reward: -0.074 | Updates: 512 | Entropy: 0.652
+Ep 336000/500000 | Avg reward: -0.040 | Updates: 513 | Entropy: 0.647
+Ep 336500/500000 | Avg reward: +0.078 | Updates: 513 | Entropy: 0.647
+Ep 337000/500000 | Avg reward: +0.074 | Updates: 514 | Entropy: 0.628
+Ep 337500/500000 | Avg reward: -0.210 | Updates: 514 | Entropy: 0.628
+Ep 338000/500000 | Avg reward: -0.014 | Updates: 515 | Entropy: 0.632
+Ep 338500/500000 | Avg reward: +0.039 | Updates: 516 | Entropy: 0.557
+Ep 339000/500000 | Avg reward: -0.065 | Updates: 516 | Entropy: 0.557
+Ep 339500/500000 | Avg reward: -0.014 | Updates: 517 | Entropy: 0.566
+Ep 340000/500000 | Avg reward: +0.057 | Updates: 518 | Entropy: 0.584
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep340000.pth
+Ep 340500/500000 | Avg reward: -0.033 | Updates: 518 | Entropy: 0.584
+Ep 341000/500000 | Avg reward: +0.008 | Updates: 519 | Entropy: 0.590
+Ep 341500/500000 | Avg reward: -0.032 | Updates: 520 | Entropy: 0.627
+Ep 342000/500000 | Avg reward: +0.070 | Updates: 520 | Entropy: 0.627
+Ep 342500/500000 | Avg reward: +0.002 | Updates: 521 | Entropy: 0.605
+Ep 343000/500000 | Avg reward: +0.112 | Updates: 521 | Entropy: 0.605
+Ep 343500/500000 | Avg reward: +0.014 | Updates: 522 | Entropy: 0.652
+Ep 344000/500000 | Avg reward: -0.104 | Updates: 523 | Entropy: 0.705
+Ep 344500/500000 | Avg reward: -0.122 | Updates: 524 | Entropy: 0.623
+Ep 345000/500000 | Avg reward: -0.117 | Updates: 524 | Entropy: 0.623
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep345000.pth
+Ep 345500/500000 | Avg reward: -0.128 | Updates: 525 | Entropy: 0.587
+Ep 346000/500000 | Avg reward: +0.034 | Updates: 525 | Entropy: 0.587
+Ep 346500/500000 | Avg reward: -0.077 | Updates: 526 | Entropy: 0.579
+Ep 347000/500000 | Avg reward: +0.045 | Updates: 527 | Entropy: 0.701
+Ep 347500/500000 | Avg reward: -0.036 | Updates: 527 | Entropy: 0.701
+Ep 348000/500000 | Avg reward: +0.253 | Updates: 528 | Entropy: 0.634
+Ep 348500/500000 | Avg reward: -0.006 | Updates: 529 | Entropy: 0.652
+Ep 349000/500000 | Avg reward: -0.088 | Updates: 529 | Entropy: 0.652
+Ep 349500/500000 | Avg reward: -0.106 | Updates: 530 | Entropy: 0.634
+Ep 350000/500000 | Avg reward: +0.102 | Updates: 531 | Entropy: 0.638
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep350000.pth
+Ep 350500/500000 | Avg reward: -0.015 | Updates: 531 | Entropy: 0.638
+Ep 351000/500000 | Avg reward: +0.083 | Updates: 532 | Entropy: 0.624
+Ep 351500/500000 | Avg reward: +0.084 | Updates: 533 | Entropy: 0.622
+Ep 352000/500000 | Avg reward: +0.020 | Updates: 534 | Entropy: 0.601
+Ep 352500/500000 | Avg reward: -0.029 | Updates: 534 | Entropy: 0.601
+Ep 353000/500000 | Avg reward: +0.078 | Updates: 535 | Entropy: 0.600
+Ep 353500/500000 | Avg reward: +0.080 | Updates: 535 | Entropy: 0.600
+Ep 354000/500000 | Avg reward: +0.068 | Updates: 536 | Entropy: 0.557
+Ep 354500/500000 | Avg reward: -0.043 | Updates: 537 | Entropy: 0.574
+Ep 355000/500000 | Avg reward: +0.046 | Updates: 537 | Entropy: 0.574
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep355000.pth
+Ep 355500/500000 | Avg reward: +0.064 | Updates: 538 | Entropy: 0.586
+Ep 356000/500000 | Avg reward: -0.059 | Updates: 539 | Entropy: 0.573
+Ep 356500/500000 | Avg reward: -0.110 | Updates: 539 | Entropy: 0.573
+Ep 357000/500000 | Avg reward: -0.183 | Updates: 540 | Entropy: 0.566
+Ep 357500/500000 | Avg reward: -0.002 | Updates: 541 | Entropy: 0.548
+Ep 358000/500000 | Avg reward: +0.052 | Updates: 541 | Entropy: 0.548
+Ep 358500/500000 | Avg reward: -0.117 | Updates: 542 | Entropy: 0.559
+Ep 359000/500000 | Avg reward: -0.064 | Updates: 542 | Entropy: 0.559
+Ep 359500/500000 | Avg reward: +0.042 | Updates: 543 | Entropy: 0.545
+Ep 360000/500000 | Avg reward: -0.039 | Updates: 544 | Entropy: 0.592
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep360000.pth
+Ep 360500/500000 | Avg reward: +0.054 | Updates: 544 | Entropy: 0.592
+Ep 361000/500000 | Avg reward: -0.054 | Updates: 545 | Entropy: 0.588
+Ep 361500/500000 | Avg reward: -0.091 | Updates: 545 | Entropy: 0.588
+Ep 362000/500000 | Avg reward: -0.048 | Updates: 546 | Entropy: 0.583
+Ep 362500/500000 | Avg reward: -0.061 | Updates: 547 | Entropy: 0.573
+Ep 363000/500000 | Avg reward: +0.069 | Updates: 547 | Entropy: 0.573
+Ep 363500/500000 | Avg reward: +0.201 | Updates: 548 | Entropy: 0.561
+Ep 364000/500000 | Avg reward: +0.060 | Updates: 549 | Entropy: 0.637
+Ep 364500/500000 | Avg reward: +0.048 | Updates: 549 | Entropy: 0.637
+Ep 365000/500000 | Avg reward: +0.176 | Updates: 550 | Entropy: 0.561
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep365000.pth
+Ep 365500/500000 | Avg reward: -0.049 | Updates: 551 | Entropy: 0.583
+Ep 366000/500000 | Avg reward: +0.023 | Updates: 551 | Entropy: 0.583
+Ep 366500/500000 | Avg reward: -0.000 | Updates: 552 | Entropy: 0.594
+Ep 367000/500000 | Avg reward: +0.174 | Updates: 553 | Entropy: 0.617
+Ep 367500/500000 | Avg reward: +0.168 | Updates: 553 | Entropy: 0.617
+Ep 368000/500000 | Avg reward: +0.089 | Updates: 554 | Entropy: 0.582
+Ep 368500/500000 | Avg reward: +0.249 | Updates: 555 | Entropy: 0.582
+Ep 369000/500000 | Avg reward: +0.019 | Updates: 555 | Entropy: 0.582
+Ep 369500/500000 | Avg reward: +0.011 | Updates: 556 | Entropy: 0.516
+Ep 370000/500000 | Avg reward: -0.003 | Updates: 556 | Entropy: 0.516
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep370000.pth
+Ep 370500/500000 | Avg reward: +0.035 | Updates: 557 | Entropy: 0.537
+Ep 371000/500000 | Avg reward: -0.019 | Updates: 558 | Entropy: 0.583
+Ep 371500/500000 | Avg reward: +0.083 | Updates: 558 | Entropy: 0.583
+Ep 372000/500000 | Avg reward: +0.018 | Updates: 559 | Entropy: 0.622
+Ep 372500/500000 | Avg reward: -0.040 | Updates: 560 | Entropy: 0.613
+Ep 373000/500000 | Avg reward: -0.039 | Updates: 560 | Entropy: 0.613
+Ep 373500/500000 | Avg reward: +0.112 | Updates: 561 | Entropy: 0.643
+Ep 374000/500000 | Avg reward: +0.035 | Updates: 562 | Entropy: 0.638
+Ep 374500/500000 | Avg reward: +0.019 | Updates: 562 | Entropy: 0.638
+Ep 375000/500000 | Avg reward: -0.076 | Updates: 563 | Entropy: 0.629
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep375000.pth
+Ep 375500/500000 | Avg reward: -0.166 | Updates: 564 | Entropy: 0.651
+Ep 376000/500000 | Avg reward: +0.098 | Updates: 564 | Entropy: 0.651
+Ep 376500/500000 | Avg reward: +0.039 | Updates: 565 | Entropy: 0.669
+Ep 377000/500000 | Avg reward: +0.044 | Updates: 566 | Entropy: 0.622
+Ep 377500/500000 | Avg reward: +0.001 | Updates: 566 | Entropy: 0.622
+Ep 378000/500000 | Avg reward: +0.241 | Updates: 567 | Entropy: 0.690
+Ep 378500/500000 | Avg reward: -0.154 | Updates: 568 | Entropy: 0.668
+Ep 379000/500000 | Avg reward: -0.004 | Updates: 568 | Entropy: 0.668
+Ep 379500/500000 | Avg reward: -0.245 | Updates: 569 | Entropy: 0.642
+Ep 380000/500000 | Avg reward: +0.094 | Updates: 570 | Entropy: 0.639
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep380000.pth
+Ep 380500/500000 | Avg reward: -0.057 | Updates: 570 | Entropy: 0.639
+Ep 381000/500000 | Avg reward: +0.209 | Updates: 571 | Entropy: 0.619
+Ep 381500/500000 | Avg reward: +0.285 | Updates: 572 | Entropy: 0.598
+Ep 382000/500000 | Avg reward: -0.001 | Updates: 572 | Entropy: 0.598
+Ep 382500/500000 | Avg reward: +0.025 | Updates: 573 | Entropy: 0.610
+Ep 383000/500000 | Avg reward: +0.023 | Updates: 574 | Entropy: 0.573
+Ep 383500/500000 | Avg reward: +0.097 | Updates: 574 | Entropy: 0.573
+Ep 384000/500000 | Avg reward: +0.041 | Updates: 575 | Entropy: 0.588
+Ep 384500/500000 | Avg reward: +0.034 | Updates: 575 | Entropy: 0.588
+Ep 385000/500000 | Avg reward: -0.102 | Updates: 576 | Entropy: 0.517
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep385000.pth
+Ep 385500/500000 | Avg reward: +0.106 | Updates: 577 | Entropy: 0.562
+Ep 386000/500000 | Avg reward: -0.049 | Updates: 577 | Entropy: 0.562
+Ep 386500/500000 | Avg reward: -0.014 | Updates: 578 | Entropy: 0.545
+Ep 387000/500000 | Avg reward: -0.149 | Updates: 579 | Entropy: 0.504
+Ep 387500/500000 | Avg reward: +0.096 | Updates: 579 | Entropy: 0.504
+Ep 388000/500000 | Avg reward: -0.070 | Updates: 580 | Entropy: 0.485
+Ep 388500/500000 | Avg reward: -0.039 | Updates: 580 | Entropy: 0.485
+Ep 389000/500000 | Avg reward: +0.079 | Updates: 581 | Entropy: 0.493
+Ep 389500/500000 | Avg reward: +0.018 | Updates: 582 | Entropy: 0.485
+Ep 390000/500000 | Avg reward: -0.094 | Updates: 582 | Entropy: 0.485
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep390000.pth
+Ep 390500/500000 | Avg reward: +0.121 | Updates: 583 | Entropy: 0.468
+Ep 391000/500000 | Avg reward: -0.058 | Updates: 583 | Entropy: 0.468
+Ep 391500/500000 | Avg reward: +0.042 | Updates: 584 | Entropy: 0.458
+Ep 392000/500000 | Avg reward: -0.018 | Updates: 585 | Entropy: 0.441
+Ep 392500/500000 | Avg reward: +0.116 | Updates: 585 | Entropy: 0.441
+Ep 393000/500000 | Avg reward: +0.048 | Updates: 586 | Entropy: 0.478
+Ep 393500/500000 | Avg reward: -0.054 | Updates: 587 | Entropy: 0.514
+Ep 394000/500000 | Avg reward: +0.062 | Updates: 587 | Entropy: 0.514
+Ep 394500/500000 | Avg reward: +0.195 | Updates: 588 | Entropy: 0.526
+Ep 395000/500000 | Avg reward: +0.050 | Updates: 588 | Entropy: 0.526
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep395000.pth
+Ep 395500/500000 | Avg reward: -0.169 | Updates: 589 | Entropy: 0.515
+Ep 396000/500000 | Avg reward: +0.207 | Updates: 590 | Entropy: 0.509
+Ep 396500/500000 | Avg reward: +0.057 | Updates: 590 | Entropy: 0.509
+Ep 397000/500000 | Avg reward: +0.244 | Updates: 591 | Entropy: 0.510
+Ep 397500/500000 | Avg reward: +0.062 | Updates: 591 | Entropy: 0.510
+Ep 398000/500000 | Avg reward: +0.037 | Updates: 592 | Entropy: 0.474
+Ep 398500/500000 | Avg reward: -0.005 | Updates: 593 | Entropy: 0.481
+Ep 399000/500000 | Avg reward: +0.002 | Updates: 593 | Entropy: 0.481
+Ep 399500/500000 | Avg reward: +0.030 | Updates: 594 | Entropy: 0.451
+Ep 400000/500000 | Avg reward: -0.063 | Updates: 594 | Entropy: 0.451
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep400000.pth
+Ep 400500/500000 | Avg reward: -0.018 | Updates: 595 | Entropy: 0.488
+Ep 401000/500000 | Avg reward: +0.021 | Updates: 596 | Entropy: 0.445
+Ep 401500/500000 | Avg reward: -0.049 | Updates: 596 | Entropy: 0.445
+Ep 402000/500000 | Avg reward: +0.111 | Updates: 597 | Entropy: 0.486
+Ep 402500/500000 | Avg reward: +0.179 | Updates: 597 | Entropy: 0.486
+Ep 403000/500000 | Avg reward: +0.150 | Updates: 598 | Entropy: 0.567
+Ep 403500/500000 | Avg reward: +0.054 | Updates: 599 | Entropy: 0.599
+Ep 404000/500000 | Avg reward: +0.012 | Updates: 599 | Entropy: 0.599
+Ep 404500/500000 | Avg reward: -0.131 | Updates: 600 | Entropy: 0.580
+Ep 405000/500000 | Avg reward: +0.280 | Updates: 601 | Entropy: 0.608
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep405000.pth
+Ep 405500/500000 | Avg reward: +0.001 | Updates: 601 | Entropy: 0.608
+Ep 406000/500000 | Avg reward: +0.047 | Updates: 602 | Entropy: 0.569
+Ep 406500/500000 | Avg reward: +0.153 | Updates: 603 | Entropy: 0.524
+Ep 407000/500000 | Avg reward: +0.098 | Updates: 603 | Entropy: 0.524
+Ep 407500/500000 | Avg reward: +0.020 | Updates: 604 | Entropy: 0.533
+Ep 408000/500000 | Avg reward: +0.018 | Updates: 605 | Entropy: 0.537
+Ep 408500/500000 | Avg reward: +0.251 | Updates: 605 | Entropy: 0.537
+Ep 409000/500000 | Avg reward: -0.064 | Updates: 606 | Entropy: 0.543
+Ep 409500/500000 | Avg reward: -0.059 | Updates: 607 | Entropy: 0.521
+Ep 410000/500000 | Avg reward: +0.031 | Updates: 607 | Entropy: 0.521
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep410000.pth
+Ep 410500/500000 | Avg reward: -0.022 | Updates: 608 | Entropy: 0.444
+Ep 411000/500000 | Avg reward: +0.094 | Updates: 608 | Entropy: 0.444
+Ep 411500/500000 | Avg reward: -0.124 | Updates: 609 | Entropy: 0.462
+Ep 412000/500000 | Avg reward: -0.049 | Updates: 610 | Entropy: 0.513
+Ep 412500/500000 | Avg reward: +0.156 | Updates: 610 | Entropy: 0.513
+Ep 413000/500000 | Avg reward: +0.106 | Updates: 611 | Entropy: 0.477
+Ep 413500/500000 | Avg reward: +0.047 | Updates: 611 | Entropy: 0.477
+Ep 414000/500000 | Avg reward: -0.014 | Updates: 612 | Entropy: 0.491
+Ep 414500/500000 | Avg reward: +0.096 | Updates: 613 | Entropy: 0.457
+Ep 415000/500000 | Avg reward: -0.015 | Updates: 613 | Entropy: 0.457
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep415000.pth
+Ep 415500/500000 | Avg reward: +0.156 | Updates: 614 | Entropy: 0.479
+Ep 416000/500000 | Avg reward: +0.034 | Updates: 615 | Entropy: 0.490
+Ep 416500/500000 | Avg reward: -0.079 | Updates: 615 | Entropy: 0.490
+Ep 417000/500000 | Avg reward: -0.026 | Updates: 616 | Entropy: 0.445
+Ep 417500/500000 | Avg reward: -0.127 | Updates: 616 | Entropy: 0.445
+Ep 418000/500000 | Avg reward: +0.167 | Updates: 617 | Entropy: 0.452
+Ep 418500/500000 | Avg reward: +0.004 | Updates: 618 | Entropy: 0.514
+Ep 419000/500000 | Avg reward: +0.143 | Updates: 618 | Entropy: 0.514
+Ep 419500/500000 | Avg reward: -0.067 | Updates: 619 | Entropy: 0.543
+Ep 420000/500000 | Avg reward: +0.037 | Updates: 619 | Entropy: 0.543
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep420000.pth
+Ep 420500/500000 | Avg reward: +0.130 | Updates: 620 | Entropy: 0.534
+Ep 421000/500000 | Avg reward: -0.057 | Updates: 621 | Entropy: 0.585
+Ep 421500/500000 | Avg reward: +0.146 | Updates: 621 | Entropy: 0.585
+Ep 422000/500000 | Avg reward: -0.173 | Updates: 622 | Entropy: 0.544
+Ep 422500/500000 | Avg reward: +0.056 | Updates: 623 | Entropy: 0.532
+Ep 423000/500000 | Avg reward: -0.012 | Updates: 623 | Entropy: 0.532
+Ep 423500/500000 | Avg reward: -0.028 | Updates: 624 | Entropy: 0.549
+Ep 424000/500000 | Avg reward: +0.132 | Updates: 625 | Entropy: 0.523
+Ep 424500/500000 | Avg reward: +0.058 | Updates: 625 | Entropy: 0.523
+Ep 425000/500000 | Avg reward: -0.173 | Updates: 626 | Entropy: 0.500
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep425000.pth
+Ep 425500/500000 | Avg reward: +0.038 | Updates: 626 | Entropy: 0.500
+Ep 426000/500000 | Avg reward: +0.041 | Updates: 627 | Entropy: 0.508
+Ep 426500/500000 | Avg reward: -0.219 | Updates: 628 | Entropy: 0.524
+Ep 427000/500000 | Avg reward: +0.028 | Updates: 628 | Entropy: 0.524
+Ep 427500/500000 | Avg reward: +0.091 | Updates: 629 | Entropy: 0.521
+Ep 428000/500000 | Avg reward: -0.143 | Updates: 630 | Entropy: 0.497
+Ep 428500/500000 | Avg reward: -0.202 | Updates: 630 | Entropy: 0.497
+Ep 429000/500000 | Avg reward: -0.128 | Updates: 631 | Entropy: 0.502
+Ep 429500/500000 | Avg reward: -0.100 | Updates: 631 | Entropy: 0.502
+Ep 430000/500000 | Avg reward: +0.232 | Updates: 632 | Entropy: 0.448
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep430000.pth
+Ep 430500/500000 | Avg reward: -0.013 | Updates: 633 | Entropy: 0.532
+Ep 431000/500000 | Avg reward: -0.020 | Updates: 633 | Entropy: 0.532
+Ep 431500/500000 | Avg reward: +0.048 | Updates: 634 | Entropy: 0.559
+Ep 432000/500000 | Avg reward: -0.077 | Updates: 634 | Entropy: 0.559
+Ep 432500/500000 | Avg reward: +0.080 | Updates: 635 | Entropy: 0.538
+Ep 433000/500000 | Avg reward: -0.046 | Updates: 636 | Entropy: 0.492
+Ep 433500/500000 | Avg reward: +0.339 | Updates: 636 | Entropy: 0.492
+Ep 434000/500000 | Avg reward: -0.089 | Updates: 637 | Entropy: 0.561
+Ep 434500/500000 | Avg reward: -0.146 | Updates: 638 | Entropy: 0.586
+Ep 435000/500000 | Avg reward: -0.112 | Updates: 638 | Entropy: 0.586
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep435000.pth
+Ep 435500/500000 | Avg reward: +0.048 | Updates: 639 | Entropy: 0.522
+Ep 436000/500000 | Avg reward: -0.067 | Updates: 639 | Entropy: 0.522
+Ep 436500/500000 | Avg reward: +0.113 | Updates: 640 | Entropy: 0.528
+Ep 437000/500000 | Avg reward: -0.003 | Updates: 641 | Entropy: 0.519
+Ep 437500/500000 | Avg reward: -0.209 | Updates: 641 | Entropy: 0.519
+Ep 438000/500000 | Avg reward: -0.175 | Updates: 642 | Entropy: 0.492
+Ep 438500/500000 | Avg reward: +0.064 | Updates: 643 | Entropy: 0.439
+Ep 439000/500000 | Avg reward: -0.000 | Updates: 643 | Entropy: 0.439
+Ep 439500/500000 | Avg reward: -0.024 | Updates: 644 | Entropy: 0.459
+Ep 440000/500000 | Avg reward: -0.029 | Updates: 644 | Entropy: 0.459
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep440000.pth
+Ep 440500/500000 | Avg reward: -0.018 | Updates: 645 | Entropy: 0.441
+Ep 441000/500000 | Avg reward: -0.199 | Updates: 646 | Entropy: 0.384
+Ep 441500/500000 | Avg reward: +0.061 | Updates: 646 | Entropy: 0.384
+Ep 442000/500000 | Avg reward: +0.066 | Updates: 647 | Entropy: 0.428
+Ep 442500/500000 | Avg reward: -0.132 | Updates: 647 | Entropy: 0.428
+Ep 443000/500000 | Avg reward: +0.003 | Updates: 648 | Entropy: 0.409
+Ep 443500/500000 | Avg reward: +0.152 | Updates: 649 | Entropy: 0.415
+Ep 444000/500000 | Avg reward: -0.020 | Updates: 649 | Entropy: 0.415
+Ep 444500/500000 | Avg reward: -0.140 | Updates: 650 | Entropy: 0.504
+Ep 445000/500000 | Avg reward: -0.355 | Updates: 650 | Entropy: 0.504
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep445000.pth
+Ep 445500/500000 | Avg reward: +0.037 | Updates: 651 | Entropy: 0.416
+Ep 446000/500000 | Avg reward: +0.075 | Updates: 652 | Entropy: 0.418
+Ep 446500/500000 | Avg reward: -0.081 | Updates: 652 | Entropy: 0.418
+Ep 447000/500000 | Avg reward: +0.006 | Updates: 653 | Entropy: 0.450
+Ep 447500/500000 | Avg reward: -0.156 | Updates: 653 | Entropy: 0.450
+Ep 448000/500000 | Avg reward: -0.083 | Updates: 654 | Entropy: 0.438
+Ep 448500/500000 | Avg reward: +0.109 | Updates: 655 | Entropy: 0.421
+Ep 449000/500000 | Avg reward: +0.047 | Updates: 655 | Entropy: 0.421
+Ep 449500/500000 | Avg reward: -0.153 | Updates: 656 | Entropy: 0.426
+Ep 450000/500000 | Avg reward: -0.084 | Updates: 656 | Entropy: 0.426
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep450000.pth
+Ep 450500/500000 | Avg reward: +0.020 | Updates: 657 | Entropy: 0.416
+Ep 451000/500000 | Avg reward: -0.031 | Updates: 658 | Entropy: 0.413
+Ep 451500/500000 | Avg reward: -0.052 | Updates: 658 | Entropy: 0.413
+Ep 452000/500000 | Avg reward: +0.197 | Updates: 659 | Entropy: 0.479
+Ep 452500/500000 | Avg reward: -0.031 | Updates: 659 | Entropy: 0.479
+Ep 453000/500000 | Avg reward: -0.003 | Updates: 660 | Entropy: 0.437
+Ep 453500/500000 | Avg reward: +0.102 | Updates: 661 | Entropy: 0.429
+Ep 454000/500000 | Avg reward: +0.080 | Updates: 661 | Entropy: 0.429
+Ep 454500/500000 | Avg reward: -0.129 | Updates: 662 | Entropy: 0.427
+Ep 455000/500000 | Avg reward: +0.116 | Updates: 663 | Entropy: 0.440
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep455000.pth
+Ep 455500/500000 | Avg reward: +0.344 | Updates: 663 | Entropy: 0.440
+Ep 456000/500000 | Avg reward: +0.062 | Updates: 664 | Entropy: 0.451
+Ep 456500/500000 | Avg reward: -0.103 | Updates: 664 | Entropy: 0.451
+Ep 457000/500000 | Avg reward: -0.026 | Updates: 665 | Entropy: 0.428
+Ep 457500/500000 | Avg reward: +0.149 | Updates: 666 | Entropy: 0.470
+Ep 458000/500000 | Avg reward: +0.109 | Updates: 666 | Entropy: 0.470
+Ep 458500/500000 | Avg reward: +0.116 | Updates: 667 | Entropy: 0.455
+Ep 459000/500000 | Avg reward: +0.142 | Updates: 667 | Entropy: 0.455
+Ep 459500/500000 | Avg reward: -0.108 | Updates: 668 | Entropy: 0.435
+Ep 460000/500000 | Avg reward: -0.127 | Updates: 669 | Entropy: 0.388
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep460000.pth
+Ep 460500/500000 | Avg reward: -0.157 | Updates: 669 | Entropy: 0.388
+Ep 461000/500000 | Avg reward: +0.007 | Updates: 670 | Entropy: 0.377
+Ep 461500/500000 | Avg reward: -0.055 | Updates: 670 | Entropy: 0.377
+Ep 462000/500000 | Avg reward: -0.164 | Updates: 671 | Entropy: 0.340
+Ep 462500/500000 | Avg reward: -0.135 | Updates: 672 | Entropy: 0.302
+Ep 463000/500000 | Avg reward: -0.015 | Updates: 672 | Entropy: 0.302
+Ep 463500/500000 | Avg reward: +0.117 | Updates: 673 | Entropy: 0.301
+Ep 464000/500000 | Avg reward: +0.058 | Updates: 673 | Entropy: 0.301
+Ep 464500/500000 | Avg reward: +0.100 | Updates: 674 | Entropy: 0.330
+Ep 465000/500000 | Avg reward: -0.239 | Updates: 674 | Entropy: 0.330
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep465000.pth
+Ep 465500/500000 | Avg reward: +0.120 | Updates: 675 | Entropy: 0.367
+Ep 466000/500000 | Avg reward: +0.036 | Updates: 676 | Entropy: 0.342
+Ep 466500/500000 | Avg reward: +0.039 | Updates: 676 | Entropy: 0.342
+Ep 467000/500000 | Avg reward: +0.123 | Updates: 677 | Entropy: 0.410
+Ep 467500/500000 | Avg reward: -0.164 | Updates: 677 | Entropy: 0.410
+Ep 468000/500000 | Avg reward: -0.154 | Updates: 678 | Entropy: 0.382
+Ep 468500/500000 | Avg reward: +0.082 | Updates: 679 | Entropy: 0.401
+Ep 469000/500000 | Avg reward: +0.056 | Updates: 679 | Entropy: 0.401
+Ep 469500/500000 | Avg reward: -0.109 | Updates: 680 | Entropy: 0.411
+Ep 470000/500000 | Avg reward: -0.027 | Updates: 680 | Entropy: 0.411
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep470000.pth
+Ep 470500/500000 | Avg reward: +0.143 | Updates: 681 | Entropy: 0.411
+Ep 471000/500000 | Avg reward: +0.000 | Updates: 682 | Entropy: 0.362
+Ep 471500/500000 | Avg reward: -0.194 | Updates: 682 | Entropy: 0.362
+Ep 472000/500000 | Avg reward: +0.035 | Updates: 683 | Entropy: 0.354
+Ep 472500/500000 | Avg reward: +0.014 | Updates: 683 | Entropy: 0.354
+Ep 473000/500000 | Avg reward: -0.164 | Updates: 684 | Entropy: 0.358
+Ep 473500/500000 | Avg reward: +0.139 | Updates: 685 | Entropy: 0.328
+Ep 474000/500000 | Avg reward: -0.121 | Updates: 685 | Entropy: 0.328
+Ep 474500/500000 | Avg reward: +0.065 | Updates: 686 | Entropy: 0.325
+Ep 475000/500000 | Avg reward: +0.104 | Updates: 686 | Entropy: 0.325
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep475000.pth
+Ep 475500/500000 | Avg reward: -0.036 | Updates: 687 | Entropy: 0.315
+Ep 476000/500000 | Avg reward: +0.078 | Updates: 688 | Entropy: 0.327
+Ep 476500/500000 | Avg reward: +0.034 | Updates: 688 | Entropy: 0.327
+Ep 477000/500000 | Avg reward: +0.030 | Updates: 689 | Entropy: 0.349
+Ep 477500/500000 | Avg reward: +0.151 | Updates: 689 | Entropy: 0.349
+Ep 478000/500000 | Avg reward: -0.060 | Updates: 690 | Entropy: 0.338
+Ep 478500/500000 | Avg reward: +0.012 | Updates: 691 | Entropy: 0.342
+Ep 479000/500000 | Avg reward: -0.116 | Updates: 691 | Entropy: 0.342
+Ep 479500/500000 | Avg reward: +0.317 | Updates: 692 | Entropy: 0.335
+Ep 480000/500000 | Avg reward: -0.044 | Updates: 692 | Entropy: 0.335
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep480000.pth
+Ep 480500/500000 | Avg reward: -0.078 | Updates: 693 | Entropy: 0.352
+Ep 481000/500000 | Avg reward: -0.049 | Updates: 694 | Entropy: 0.359
+Ep 481500/500000 | Avg reward: -0.066 | Updates: 694 | Entropy: 0.359
+Ep 482000/500000 | Avg reward: +0.001 | Updates: 695 | Entropy: 0.345
+Ep 482500/500000 | Avg reward: +0.008 | Updates: 695 | Entropy: 0.345
+Ep 483000/500000 | Avg reward: -0.081 | Updates: 696 | Entropy: 0.385
+Ep 483500/500000 | Avg reward: -0.047 | Updates: 696 | Entropy: 0.385
+Ep 484000/500000 | Avg reward: +0.063 | Updates: 697 | Entropy: 0.393
+Ep 484500/500000 | Avg reward: +0.043 | Updates: 698 | Entropy: 0.418
+Ep 485000/500000 | Avg reward: -0.027 | Updates: 698 | Entropy: 0.418
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep485000.pth
+Ep 485500/500000 | Avg reward: +0.183 | Updates: 699 | Entropy: 0.386
+Ep 486000/500000 | Avg reward: +0.048 | Updates: 700 | Entropy: 0.431
+Ep 486500/500000 | Avg reward: +0.226 | Updates: 700 | Entropy: 0.431
+Ep 487000/500000 | Avg reward: +0.158 | Updates: 701 | Entropy: 0.410
+Ep 487500/500000 | Avg reward: -0.177 | Updates: 701 | Entropy: 0.410
+Ep 488000/500000 | Avg reward: +0.127 | Updates: 702 | Entropy: 0.431
+Ep 488500/500000 | Avg reward: -0.096 | Updates: 703 | Entropy: 0.419
+Ep 489000/500000 | Avg reward: -0.128 | Updates: 703 | Entropy: 0.419
+Ep 489500/500000 | Avg reward: +0.082 | Updates: 704 | Entropy: 0.407
+Ep 490000/500000 | Avg reward: +0.215 | Updates: 705 | Entropy: 0.412
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep490000.pth
+Ep 490500/500000 | Avg reward: -0.017 | Updates: 705 | Entropy: 0.412
+Ep 491000/500000 | Avg reward: -0.027 | Updates: 706 | Entropy: 0.441
+Ep 491500/500000 | Avg reward: -0.004 | Updates: 707 | Entropy: 0.387
+Ep 492000/500000 | Avg reward: -0.029 | Updates: 707 | Entropy: 0.387
+Ep 492500/500000 | Avg reward: +0.040 | Updates: 708 | Entropy: 0.344
+Ep 493000/500000 | Avg reward: +0.192 | Updates: 708 | Entropy: 0.344
+Ep 493500/500000 | Avg reward: +0.021 | Updates: 709 | Entropy: 0.410
+Ep 494000/500000 | Avg reward: +0.272 | Updates: 710 | Entropy: 0.426
+Ep 494500/500000 | Avg reward: -0.155 | Updates: 710 | Entropy: 0.426
+Ep 495000/500000 | Avg reward: -0.082 | Updates: 711 | Entropy: 0.402
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep495000.pth
+Ep 495500/500000 | Avg reward: -0.343 | Updates: 712 | Entropy: 0.393
+Ep 496000/500000 | Avg reward: -0.075 | Updates: 712 | Entropy: 0.393
+Ep 496500/500000 | Avg reward: +0.022 | Updates: 713 | Entropy: 0.366
+Ep 497000/500000 | Avg reward: -0.052 | Updates: 713 | Entropy: 0.366
+Ep 497500/500000 | Avg reward: +0.064 | Updates: 714 | Entropy: 0.384
+Ep 498000/500000 | Avg reward: -0.027 | Updates: 715 | Entropy: 0.378
+Ep 498500/500000 | Avg reward: +0.088 | Updates: 715 | Entropy: 0.378
+Ep 499000/500000 | Avg reward: +0.023 | Updates: 716 | Entropy: 0.413
+Ep 499500/500000 | Avg reward: +0.093 | Updates: 716 | Entropy: 0.413
+Ep 500000/500000 | Avg reward: +0.123 | Updates: 717 | Entropy: 0.452
+  Checkpoint saved to models/config3_low_lr\checkpoint_ep500000.pth
+
+Final model saved to models/config3_low_lr\agent.pth
+Reward history saved to models/config3_low_lr\episode_rewards.npy
+  Training curves saved to models/config3_low_lr\training_curves.png
+
+Training complete | 500000 episodes | Final avg reward (last 1000): +0.108
