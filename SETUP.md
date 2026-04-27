@@ -9,39 +9,53 @@
 
 ---
 
-## Installation
+## Quick Start for Graders
+
+The web app uses pre-computed results from the best trained model — **no training, no GPU, no configuration needed.**
 
 ```bash
 # 1. Clone the repository
-git clone <repo-url>
+git clone https://github.com/dzhu17/poker-study-tool.git
 cd poker-study-tool
 
-# 2. Create a virtual environment
-python -m venv venv
+# 2. Create a virtual environment (must use Python 3.11)
+py -3.11 -m venv venv          # Windows
+python3.11 -m venv venv        # macOS / Linux
 
 # 3. Activate the virtual environment
-venv\Scripts\activate        # Windows (Command Prompt / PowerShell)
-source venv/bin/activate     # macOS / Linux
+venv\Scripts\activate          # Windows (Command Prompt / PowerShell)
+source venv/bin/activate       # macOS / Linux
 
 # 4. Install all dependencies
 pip install -r requirements.txt
+
+# 5. Launch the web app (production mode)
+waitress-serve --port=5000 app:app
 ```
+
+Open **http://localhost:5000** in your browser.
+
+> **Note:** If `py -3.11` is not available, install Python 3.11 from python.org and try again. Python 3.12+ will not work due to pinned numpy/torch versions.
+
+**Study mode:** Select a scenario tab (SB Opening / BB vs Open / SB vs 3-Bet). Click either card to pick its rank, then suit. The agent's recommended action and probability breakdown appear instantly.
+
+**Quiz mode:** The app deals a random hand from the selected scenario. Choose FOLD, CALL, or RAISE — the agent's answer is revealed after you click.
 
 ---
 
-## Running the Web App (Recommended for Graders)
+## Alternative: Development Server
 
-The web app uses pre-computed results from the best trained model — no training or GPU needed.
+If you prefer Flask's built-in server for development:
 
 ```bash
 python app.py
 ```
 
-Open `http://localhost:5000` in your browser.
+Open `http://localhost:5000` in your browser. Identical functionality — development mode only.
 
-**Study mode:** Select a scenario tab (SB Opening / BB vs Open / SB vs 3-Bet). Click either card to pick its rank, then suit. The agent's recommended action and probability breakdown appear instantly.
+---
 
-**Quiz mode:** The app deals a random hand from the selected scenario. Choose FOLD, LIMP/CALL, or RAISE/3-BET/4-BET — the agent's answer is revealed after you click.
+## Installation (Manual Steps)
 
 ---
 

@@ -14,7 +14,7 @@ This project builds a complete reinforcement learning pipeline for heads-up NLHE
 
 ```bash
 # 1. Clone the repo
-git clone <repo-url>
+git clone https://github.com/dzhu17/poker-study-tool.git
 cd poker-study-tool
 
 # 2. Create and activate virtual environment (requires Python 3.11)
