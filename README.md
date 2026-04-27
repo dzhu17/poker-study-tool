@@ -175,9 +175,8 @@ The Flask web app (`app.py`) uses pre-computed results from the best trained mod
 
 ## Video Links
 
-- **Project Demo (3–5 min):** _[add link after recording]_
-- **Technical Walkthrough (5–10 min):** _[add link after recording]_
-
+- **Project Demo :** [_\[add link after recording\]_]https://drive.google.com/file/d/1W9u0XFirChTEp4XjTjgs7gzk1qE9Vowu/view?usp=drive_link
+- **Technical Walkthrough :** https://drive.google.com/file/d/1N0STp5ouXQHF_KM0tqWcvHqzIo1xMSNh/view?usp=drive_link
 ---
 
 ## Evaluation
